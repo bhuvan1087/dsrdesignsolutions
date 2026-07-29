@@ -1,8 +1,8 @@
 <svg width="720" height="180" viewBox="0 0 720 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">DSR Design and Engineering Solutions logo</title>
-  <desc id="desc">Clean black DSR company logo on a white background.</desc>
+  <desc id="desc">Clean blue DSR company logo on a white background.</desc>
   <rect width="720" height="180" rx="12" fill="#ffffff"/>
-  <g transform="translate(32 24)" stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(32 24)" stroke="#3152c7" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
     <path d="M58 112a58 58 0 1 1 54-36"/>
     <path d="M17 72h82"/>
     <path d="M58 10v18"/>
@@ -12,9 +12,9 @@
     <path d="M12 50h15"/>
     <path d="M12 97h16"/>
   </g>
-  <text x="170" y="92" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="4">DSR</text>
-  <path d="M176 112h300" stroke="#111111" stroke-width="7" stroke-linecap="round"/>
-  <path d="M176 132h214" stroke="#111111" stroke-width="7" stroke-linecap="round"/>
-  <path d="M414 132h48" stroke="#111111" stroke-width="7" stroke-linecap="round"/>
-  <text x="170" y="164" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="500">Design and Engineering Solutions</text>
+  <text x="170" y="92" fill="#3152c7" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="4">DSR</text>
+  <path d="M176 112h300" stroke="#3152c7" stroke-width="7" stroke-linecap="round"/>
+  <path d="M176 132h214" stroke="#3152c7" stroke-width="7" stroke-linecap="round"/>
+  <path d="M414 132h48" stroke="#3152c7" stroke-width="7" stroke-linecap="round"/>
+  <text x="170" y="164" fill="#3152c7" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="500">Design and Engineering Solutions</text>
 </svg>

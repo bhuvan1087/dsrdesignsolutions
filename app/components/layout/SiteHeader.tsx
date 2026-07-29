@@ -10,10 +10,6 @@ export function SiteHeader({ activeLabel, contactHref = "/#contact-us" }: SiteHe
     <header className="site-header">
       <a className="brand" href="/" aria-label={`${content.company.name} home`}>
         <img className="brand-logo" src={content.company.logo} alt="" />
-        <span>
-          <strong>{content.company.name}</strong>
-          <small>{content.company.tagline}</small>
-        </span>
       </a>
       <nav className="nav-links" aria-label="Primary navigation">
         {content.navigation.map((item) => (
