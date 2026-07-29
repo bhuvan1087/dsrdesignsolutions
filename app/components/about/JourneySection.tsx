@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import content from "@/content/site.json";
 
 export function JourneySection() {
@@ -11,8 +12,8 @@ export function JourneySection() {
         <p>{section.body}</p>
       </div>
       <div className="timeline">
-        {section.items.map((item) => (
-          <article key={item.year}>
+        {section.items.map((item, index) => (
+          <article key={item.year} style={{ "--step": index } as CSSProperties}>
             <strong>{item.year}</strong>
             <h3>{item.title}</h3>
             <p>{item.body}</p>
