@@ -215,7 +215,7 @@ img {
   background-position: center;
   background-size: cover;
   min-height: 414px;
-  padding: clamp(78px, 10vw, 112px) clamp(20px, 5vw, 44px);
+  padding: clamp(72px, 9vw, 108px) clamp(20px, 5vw, 44px);
 }
 
 .page-hero div {
@@ -224,16 +224,16 @@ img {
 
 .page-hero h1 {
   color: #ffffff;
-  font-size: clamp(52px, 6.4vw, 92px);
+  font-size: clamp(42px, 5.2vw, 70px);
   line-height: 1;
-  margin: 0 0 28px;
+  margin: 0 0 24px;
 }
 
 .page-hero p:not(.eyebrow) {
   color: #ffffff;
-  font-size: clamp(20px, 2.1vw, 28px);
+  font-size: clamp(18px, 1.75vw, 24px);
   line-height: 1.5;
-  max-width: 850px;
+  max-width: 780px;
 }
 
 .about-grid {
@@ -356,22 +356,35 @@ p {
 
 .journey-section {
   background: #f8fafc;
-  padding: clamp(84px, 9vw, 120px) clamp(20px, 6vw, 86px);
+  padding: clamp(72px, 8vw, 104px) clamp(20px, 6vw, 86px);
+}
+
+.journey-section .section-heading h2 {
+  color: #050505;
+  font-size: clamp(30px, 3.2vw, 42px);
+}
+
+.journey-section .section-heading p:not(.eyebrow) {
+  font-size: 18px;
+  line-height: 1.55;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 760px;
 }
 
 .timeline {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  margin-top: 56px;
+  margin-top: 44px;
 }
 
 .timeline article {
   background: #ffffff;
   border: 1px solid var(--line);
   border-radius: 6px;
-  min-height: 240px;
-  padding: 32px 26px;
+  min-height: 218px;
+  padding: 28px 22px;
   position: relative;
 }
 
@@ -388,15 +401,20 @@ p {
 .timeline strong {
   color: var(--navy);
   display: block;
-  font-size: 34px;
+  font-size: 28px;
   margin-bottom: 12px;
 }
 
 .timeline h3 {
   color: #050505;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.2;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
+}
+
+.timeline p {
+  font-size: 15px;
+  line-height: 1.58;
 }
 
 .strengths-section {
@@ -409,19 +427,19 @@ p {
 
 .about-cta {
   background: #ffffff;
-  padding: clamp(70px, 8vw, 110px) clamp(20px, 6vw, 86px);
+  padding: clamp(62px, 7vw, 92px) clamp(20px, 6vw, 86px);
   text-align: center;
 }
 
 .about-cta h2 {
   color: #050505;
-  font-size: clamp(34px, 4vw, 52px);
+  font-size: clamp(30px, 3.2vw, 42px);
   margin: 0 auto 16px;
 }
 
 .about-cta p {
   color: #344054;
-  font-size: 18px;
+  font-size: 17px;
   margin: 0 auto;
   max-width: 760px;
 }
