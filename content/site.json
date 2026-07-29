@@ -1,9 +1,10 @@
 {
   "company": {
-    "name": "DSR Design Solutions",
-    "tagline": "Detailed Design Engineering",
+    "name": "DSR Design and Engineering Solutions",
+    "tagline": "Design and Engineering Solutions",
     "phone": "+91 00000 00000",
     "email": "info@dsrdesignsolutions.com",
+    "logo": "/images/brand/dsr-logo-clean.svg",
     "copyright": "DSR Design Solutions Pvt. Ltd. © 2026 All Rights Reserved."
   },
   "navigation": [

@@ -64,6 +64,16 @@ img {
   gap: 12px;
 }
 
+.brand-logo {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  height: 68px;
+  object-fit: contain;
+  padding: 6px;
+  width: 210px;
+}
+
 .brand-mark {
   align-items: center;
   background: var(--navy);
@@ -85,7 +95,7 @@ img {
 
 .brand strong {
   color: var(--navy);
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.1;
 }
 
@@ -844,6 +854,11 @@ p {
 
   .brand {
     padding-right: 120px;
+  }
+
+  .brand-logo {
+    height: 54px;
+    width: 160px;
   }
 
   .nav-links {

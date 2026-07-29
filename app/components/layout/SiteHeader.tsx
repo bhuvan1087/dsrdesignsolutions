@@ -9,7 +9,7 @@ export function SiteHeader({ activeLabel, contactHref = "/#contact-us" }: SiteHe
   return (
     <header className="site-header">
       <a className="brand" href="/" aria-label={`${content.company.name} home`}>
-        <span className="brand-mark">DSR</span>
+        <img className="brand-logo" src={content.company.logo} alt="" />
         <span>
           <strong>{content.company.name}</strong>
           <small>{content.company.tagline}</small>
