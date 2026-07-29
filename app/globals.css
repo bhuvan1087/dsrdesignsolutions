@@ -241,7 +241,14 @@ img {
   display: grid;
   gap: clamp(36px, 5vw, 72px);
   grid-template-columns: minmax(0, 1fr) minmax(360px, 0.82fr);
+  justify-content: center;
   padding-top: clamp(28px, 3vw, 44px);
+}
+
+.about-grid > div:first-child {
+  justify-self: center;
+  max-width: 760px;
+  text-align: center;
 }
 
 .about-detail {
@@ -297,6 +304,8 @@ p {
 }
 
 .about-grid p:not(.eyebrow) {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 760px;
 }
 
@@ -315,9 +324,9 @@ p {
 }
 
 .stats-row span {
-  border-left: 3px solid var(--red);
+  border-top: 3px solid var(--red);
   color: var(--muted);
-  padding-left: 14px;
+  padding-top: 12px;
 }
 
 .stats-row strong {
