@@ -1,0 +1,189 @@
+{
+  "company": {
+    "name": "DSR Design Solutions",
+    "tagline": "Detailed Design Engineering",
+    "phone": "+91 00000 00000",
+    "email": "info@dsrdesignsolutions.com",
+    "copyright": "DSR Design Solutions Pvt. Ltd. © 2026 All Rights Reserved."
+  },
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "About Us", "href": "/about" },
+    { "label": "Industries", "href": "/#industries" },
+    { "label": "Services", "href": "/#services" },
+    { "label": "Quality & EHS", "href": "/#quality-and-ehs" },
+    { "label": "Divisions", "href": "/#divisions" },
+    { "label": "Blogs", "href": "/#blogs" },
+    { "label": "Contact Us", "href": "/#contact-us" }
+  ],
+  "footer": {
+    "intro": "Detailed design engineering, CAD, BIM, staffing, and project support for industrial clients.",
+    "quickLinks": [
+      { "label": "About Us", "href": "/about" },
+      { "label": "Industries", "href": "/#industries" },
+      { "label": "Services", "href": "/#services" },
+      { "label": "Quality & EHS", "href": "/#quality-and-ehs" }
+    ],
+    "socialLinks": [
+      { "label": "LinkedIn", "href": "#" },
+      { "label": "Facebook", "href": "#" },
+      { "label": "X", "href": "#" }
+    ]
+  },
+  "images": {
+    "homeHero1": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1800&q=80",
+    "homeHero2": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1800&q=80",
+    "homeHero3": "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=1800&q=80",
+    "homeAbout": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80",
+    "industryRefineries": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=900&q=80",
+    "industryPetrochemicals": "https://images.unsplash.com/photo-1581093458791-9d15482442f6?auto=format&fit=crop&w=900&q=80",
+    "industryTerminals": "https://images.unsplash.com/photo-1565608087341-404b25492fee?auto=format&fit=crop&w=900&q=80",
+    "aboutHero": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1800&q=80"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Detailed design engineering company in India",
+      "description": "Multidiscipline engineering, BIM, CAD, and project support for industrial assets.",
+      "slides": [
+        { "title": "Petrochemical Engineering", "imageKey": "homeHero1" },
+        { "title": "BIM and CAD Delivery", "imageKey": "homeHero2" },
+        { "title": "Oil and Gas Projects", "imageKey": "homeHero3" }
+      ]
+    },
+    "aboutPreview": {
+      "eyebrow": "About Us",
+      "title": "Engineering support from concept to completion.",
+      "body": "DSR Design Solutions delivers practical, high-quality engineering services for oil and gas, petrochemical, infrastructure, and industrial projects. Our teams combine design discipline, digital delivery, and field-aware coordination to help clients move from early planning to construction-ready documentation.",
+      "imageKey": "homeAbout",
+      "imageAlt": "Engineering team reviewing industrial design documents",
+      "readMoreHref": "/about",
+      "stats": [
+        { "value": "600+", "label": "project packages" },
+        { "value": "2200+", "label": "talent network" },
+        { "value": "2011", "label": "engineering roots" }
+      ]
+    },
+    "visionMission": [
+      {
+        "eyebrow": "Our Vision",
+        "title": "To be a trusted engineering partner for resilient industrial growth."
+      },
+      {
+        "eyebrow": "Our Mission",
+        "title": "To deliver value beyond drawings through detail, coordination, and dependable execution."
+      }
+    ],
+    "values": {
+      "eyebrow": "Our Core Values",
+      "title": "Principles that guide every package we deliver.",
+      "items": [
+        { "title": "Integrity", "body": "Transparent decisions, disciplined delivery, and accountable communication." },
+        { "title": "Innovation", "body": "Modern tools and smarter workflows for complex engineering challenges." },
+        { "title": "Collaboration", "body": "Integrated teams aligned with clients, contractors, and site realities." },
+        { "title": "Excellence", "body": "Quality-focused outputs built for approval, procurement, and construction." },
+        { "title": "Sustainability", "body": "Engineering choices that support resilient and responsible assets." },
+        { "title": "Information Security", "body": "Controlled processes to protect client data and project knowledge." }
+      ]
+    },
+    "services": {
+      "eyebrow": "Our Services",
+      "title": "Comprehensive services for industrial project delivery.",
+      "items": [
+        { "title": "Plant Engineering Services", "body": "Complete support for industrial projects from concept planning to detailed design." },
+        { "title": "CAD Services", "body": "Precise drafting, modelling, and documentation for multi-discipline teams." },
+        { "title": "BIM Services", "body": "Coordinated 3D workflows that reduce rework and improve construction readiness." },
+        { "title": "Structural Steel Detailing", "body": "Reliable design and detailing packages for steel structures and process facilities." },
+        { "title": "Project Management", "body": "Practical planning, coordination, and reporting to keep delivery moving." }
+      ]
+    },
+    "industries": {
+      "eyebrow": "Industries We Serve",
+      "title": "Powering progress across core engineering sectors.",
+      "items": [
+        { "title": "Oil & Gas Refineries", "imageKey": "industryRefineries" },
+        { "title": "Petrochemicals", "imageKey": "industryPetrochemicals" },
+        { "title": "Storage Terminals", "imageKey": "industryTerminals" }
+      ]
+    },
+    "clients": {
+      "eyebrow": "Our Clients",
+      "title": "Trusted by organizations across energy, infrastructure, and manufacturing.",
+      "items": ["L&T", "Tata Projects", "Adani", "Reliance", "BHEL", "Technip", "Worley", "Jacobs", "HPCL", "IOCL", "BPCL", "ONGC"]
+    },
+    "divisions": {
+      "eyebrow": "Our Divisions",
+      "title": "Specialized teams working together for comprehensive solutions.",
+      "items": [
+        { "title": "Secondment Services", "body": "Specialist engineering talent deployed to client teams for fast, focused project support." },
+        { "title": "Manpower Services", "body": "Role-fit staffing support for design offices, construction teams, and operations groups." },
+        { "title": "Professional Training", "body": "Practical technical training for graduates and working engineers entering industrial design." }
+      ]
+    },
+    "network": {
+      "eyebrow": "Our Global Network",
+      "title": "Engineering support close to clients and project sites.",
+      "locations": ["Mangalore", "New Delhi", "Mumbai", "Hyderabad", "Abu Dhabi", "Texas"]
+    },
+    "insights": {
+      "eyebrow": "News & Insights",
+      "title": "Engineering updates, project thinking, and delivery notes.",
+      "items": [
+        { "title": "Digital engineering for plant design", "body": "Practical observations from detailed engineering and industrial project execution." },
+        { "title": "How BIM improves field coordination", "body": "Practical observations from detailed engineering and industrial project execution." },
+        { "title": "Quality checks before IFC release", "body": "Practical observations from detailed engineering and industrial project execution." }
+      ]
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "eyebrow": "About Us",
+      "title": "About Our Company",
+      "body": "We are a team of dedicated engineering professionals committed to delivering innovative, practical, and high-quality solutions that transform industries and improve project outcomes.",
+      "imageKey": "aboutHero"
+    },
+    "details": {
+      "eyebrow": "Who We Are",
+      "title": "A detailed design engineering partner for industrial growth.",
+      "paragraphs": [
+        "DSR Design Solutions is a detailed design engineering company supporting oil and gas, petrochemical, industrial, infrastructure, and manufacturing projects. We help clients with engineering documentation, CAD, BIM, project support, manpower services, and technical training that are practical, compliant, sustainable, and future-ready.",
+        "Our approach combines technical depth, project execution capability, and industry knowledge. From early design coordination to construction-ready deliverables, we focus on clear communication, reliable documentation, and disciplined quality review at every stage."
+      ],
+      "card": {
+        "eyebrow": "Certified Delivery Focus",
+        "title": "Quality, EHS, and information discipline guide our work.",
+        "body": "Built around robust internal checks, secure information handling, and client-specific standards."
+      }
+    },
+    "journey": {
+      "eyebrow": "Our Journey",
+      "title": "Key milestones that shaped our company.",
+      "body": "From focused beginnings to a growing engineering network, our journey is built on dependable delivery and long-term client relationships.",
+      "items": [
+        { "year": "2011", "body": "DSR begins with a focused vision for dependable detailed design engineering support." },
+        { "year": "2016", "body": "Expanded CAD, BIM, and multidisciplinary documentation workflows for industrial clients." },
+        { "year": "2021", "body": "Built a broader talent and project delivery network for secondment and manpower support." },
+        { "year": "2026", "body": "Delivering integrated design, staffing, training, and project support for complex assets." }
+      ]
+    },
+    "strengths": {
+      "eyebrow": "What We Do",
+      "title": "Full information, not just a homepage preview.",
+      "items": [
+        { "title": "Detailed Engineering", "body": "Practical design documentation for procurement, fabrication, approval, and construction." },
+        { "title": "Digital Delivery", "body": "CAD, BIM, and coordinated model-based workflows that improve clarity and reduce rework." },
+        { "title": "Project Support", "body": "Flexible engineering teams aligned with client schedules, standards, and site realities." },
+        { "title": "Quality Culture", "body": "Review-led delivery with attention to compliance, traceability, and disciplined handover." }
+      ]
+    },
+    "visionMission": [
+      {
+        "eyebrow": "Our Vision",
+        "title": "To be a trusted engineering partner known for precision, reliability, and value."
+      },
+      {
+        "eyebrow": "Our Mission",
+        "title": "To support clients with coordinated, buildable, and dependable engineering solutions."
+      }
+    ]
+  }
+}
