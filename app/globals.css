@@ -374,21 +374,69 @@ p {
 
 .timeline {
   display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 34px;
   margin-top: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1060px;
+  position: relative;
+}
+
+.timeline::before {
+  animation: timelineLineIn 900ms ease both;
+  background: linear-gradient(180deg, var(--blue), var(--red));
+  bottom: 24px;
+  content: "";
+  left: 50%;
+  position: absolute;
+  top: 24px;
+  transform: translateX(-50%);
+  width: 3px;
+}
+
+.timeline-item {
+  animation: journeyCardIn 720ms ease both;
+  animation-delay: calc(var(--step) * 140ms);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 42px minmax(0, 1fr);
+  position: relative;
+  transform-origin: center bottom;
+}
+
+.timeline-item:nth-child(odd) article {
+  grid-column: 1;
+  justify-self: end;
+}
+
+.timeline-item:nth-child(even) article {
+  grid-column: 3;
+  justify-self: start;
+}
+
+.timeline-dot {
+  align-self: start;
+  background: #ffffff;
+  border: 5px solid var(--blue);
+  border-radius: 999px;
+  box-shadow: 0 0 0 7px rgba(12, 101, 184, 0.12);
+  grid-column: 2;
+  height: 22px;
+  justify-self: center;
+  margin-top: 32px;
+  position: relative;
+  width: 22px;
+  z-index: 1;
 }
 
 .timeline article {
-  animation: journeyCardIn 720ms ease both;
-  animation-delay: calc(var(--step) * 140ms);
   background: #ffffff;
   border: 1px solid var(--line);
   border-radius: 6px;
-  min-height: 218px;
+  box-shadow: 0 18px 54px rgba(15, 39, 66, 0.09);
+  max-width: 430px;
+  min-height: 176px;
   padding: 28px 22px;
   position: relative;
-  transform-origin: center bottom;
 }
 
 .timeline article::before {
@@ -722,7 +770,7 @@ p {
 @keyframes journeyCardIn {
   from {
     opacity: 0;
-    transform: translateY(28px) scale(0.98);
+    transform: translateY(34px) scale(0.98);
   }
   to {
     opacity: 1;
@@ -730,8 +778,22 @@ p {
   }
 }
 
+@keyframes timelineLineIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) scaleY(0);
+    transform-origin: top;
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) scaleY(1);
+    transform-origin: top;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .timeline article {
+  .timeline::before,
+  .timeline-item {
     animation: none;
   }
 }
@@ -760,7 +822,7 @@ p {
   }
 
   .timeline {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 820px;
   }
 }
 
@@ -799,9 +861,36 @@ p {
   .division-grid,
   .insight-grid,
   .locations,
-  .timeline,
   .stats-row {
     grid-template-columns: 1fr;
+  }
+
+  .timeline {
+    gap: 26px;
+    margin-left: 0;
+    max-width: none;
+  }
+
+  .timeline::before {
+    left: 11px;
+    transform: none;
+  }
+
+  .timeline-item {
+    grid-template-columns: 24px minmax(0, 1fr);
+  }
+
+  .timeline-item:nth-child(odd) article,
+  .timeline-item:nth-child(even) article {
+    grid-column: 2;
+    justify-self: stretch;
+  }
+
+  .timeline-dot {
+    grid-column: 1;
+    height: 20px;
+    margin-top: 28px;
+    width: 20px;
   }
 
   .about-image {

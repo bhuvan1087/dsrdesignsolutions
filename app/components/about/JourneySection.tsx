@@ -13,11 +13,14 @@ export function JourneySection() {
       </div>
       <div className="timeline">
         {section.items.map((item, index) => (
-          <article key={item.year} style={{ "--step": index } as CSSProperties}>
-            <strong>{item.year}</strong>
-            <h3>{item.title}</h3>
-            <p>{item.body}</p>
-          </article>
+          <div className="timeline-item" key={item.year} style={{ "--step": index } as CSSProperties}>
+            <span className="timeline-dot" aria-hidden="true" />
+            <article>
+              <strong>{item.year}</strong>
+              <h3>{item.title}</h3>
+              <p>{item.body}</p>
+            </article>
+          </div>
         ))}
       </div>
     </section>
