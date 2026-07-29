@@ -156,14 +156,43 @@
     },
     "journey": {
       "eyebrow": "Our Journey",
-      "title": "Key milestones that shaped our company.",
-      "body": "From focused beginnings to a growing engineering network, our journey is built on dependable delivery and long-term client relationships.",
+      "title": "Our Journey",
+      "body": "From our humble beginnings to industry leadership, explore the key milestones that have shaped our company.",
       "items": [
-        { "year": "2011", "body": "DSR begins with a focused vision for dependable detailed design engineering support." },
-        { "year": "2016", "body": "Expanded CAD, BIM, and multidisciplinary documentation workflows for industrial clients." },
-        { "year": "2021", "body": "Built a broader talent and project delivery network for secondment and manpower support." },
-        { "year": "2026", "body": "Delivering integrated design, staffing, training, and project support for complex assets." }
+        {
+          "year": "2011",
+          "title": "Company Founded",
+          "body": "Our journey began with a focused team of dedicated engineers."
+        },
+        {
+          "year": "2013",
+          "title": "Project Expansion",
+          "body": "Expanded our engineering support for industrial design and documentation projects."
+        },
+        {
+          "year": "2015",
+          "title": "Digital Delivery",
+          "body": "Strengthened CAD and BIM workflows to improve coordination and project delivery."
+        },
+        {
+          "year": "2020",
+          "title": "Sustainability Initiative",
+          "body": "Committed to practical, compliant, and sustainable engineering practices."
+        },
+        {
+          "year": "2023",
+          "title": "Industry Recognition",
+          "body": "Built stronger client relationships through reliable engineering and support services."
+        }
       ]
+    },
+    "cta": {
+      "title": "Ready to Work With Us?",
+      "body": "Join the many satisfied clients who have experienced our exceptional engineering solutions.",
+      "primaryLabel": "Contact Us",
+      "primaryHref": "/#contact-us",
+      "secondaryLabel": "Explore Our Services",
+      "secondaryHref": "/#services"
     },
     "strengths": {
       "eyebrow": "What We Do",
