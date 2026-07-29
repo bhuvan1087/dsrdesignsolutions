@@ -7,7 +7,7 @@ export function JourneySection() {
   return (
     <section className="journey-section">
       <div className="section-heading compact">
-        <p className="eyebrow">{section.eyebrow}</p>
+        {section.eyebrow ? <p className="eyebrow">{section.eyebrow}</p> : null}
         <h2>{section.title}</h2>
         <p>{section.body}</p>
       </div>
