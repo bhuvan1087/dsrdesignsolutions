@@ -374,7 +374,7 @@ p {
 
 .timeline {
   display: grid;
-  gap: 22px;
+  gap: 18px;
   margin-top: 26px;
   margin-left: auto;
   margin-right: auto;
@@ -422,7 +422,7 @@ p {
   grid-column: 2;
   height: 26px;
   justify-self: center;
-  margin-top: 22px;
+  margin-top: 18px;
   position: relative;
   width: 26px;
   z-index: 1;
@@ -434,9 +434,9 @@ p {
   border-left: 7px solid #1f63ff;
   border-radius: 12px;
   box-shadow: 0 12px 28px rgba(15, 39, 66, 0.14);
-  max-width: 430px;
-  min-height: 118px;
-  padding: 20px 26px;
+  max-width: 560px;
+  min-height: 92px;
+  padding: 14px 28px;
   position: relative;
 }
 
@@ -449,23 +449,23 @@ p {
   border-radius: 999px;
   color: #2545c7;
   display: inline-flex;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 900;
-  margin-bottom: 12px;
-  padding: 6px 14px;
+  margin-bottom: 8px;
+  padding: 4px 12px;
 }
 
 .timeline h3 {
   color: #050505;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.2;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .timeline p {
   color: #475467;
-  font-size: 15px;
-  line-height: 1.48;
+  font-size: 13px;
+  line-height: 1.42;
 }
 
 .strengths-section {
