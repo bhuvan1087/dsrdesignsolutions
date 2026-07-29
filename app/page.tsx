@@ -61,10 +61,21 @@ const clients = [
 ];
 
 export default function Home() {
+  const navItems = [
+    ["Home", "/"],
+    ["About Us", "/about"],
+    ["Industries", "#industries"],
+    ["Services", "#services"],
+    ["Quality & EHS", "#quality-and-ehs"],
+    ["Divisions", "#divisions"],
+    ["Blogs", "#blogs"],
+    ["Contact Us", "#contact-us"],
+  ];
+
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="#home" aria-label="DSR Design Solutions home">
+        <a className="brand" href="/" aria-label="DSR Design Solutions home">
           <span className="brand-mark">DSR</span>
           <span>
             <strong>DSR Design Solutions</strong>
@@ -72,13 +83,11 @@ export default function Home() {
           </span>
         </a>
         <nav className="nav-links" aria-label="Primary navigation">
-          {["Home", "About Us", "Industries", "Services", "Quality & EHS", "Divisions", "Blogs", "Contact Us"].map(
-            (item) => (
-              <a key={item} href={`#${item.toLowerCase().replaceAll(" ", "-").replace("&", "and")}`}>
+          {navItems.map(([item, href]) => (
+              <a className={item === "Home" ? "active" : undefined} key={item} href={href}>
                 {item}
               </a>
-            ),
-          )}
+            ))}
         </nav>
         <a className="header-cta" href="#contact-us">
           Get in Touch
@@ -116,7 +125,7 @@ export default function Home() {
             <span><strong>2200+</strong> talent network</span>
             <span><strong>2011</strong> engineering roots</span>
           </div>
-          <a className="text-link" href="#services">
+          <a className="text-link" href="/about">
             Read More
           </a>
         </div>
@@ -254,7 +263,7 @@ export default function Home() {
         </div>
         <div>
           <h3>Quick Links</h3>
-          <a href="#about-us">About Us</a>
+          <a href="/about">About Us</a>
           <a href="#industries">Industries</a>
           <a href="#services">Services</a>
           <a href="#quality-and-ehs">Quality & EHS</a>
@@ -269,7 +278,7 @@ export default function Home() {
             <a href="#">X</a>
           </div>
         </div>
-        <p className="copyright">DSR Design Solutions Pvt. Ltd. © 2026 All Rights Reserved.</p>
+        <p className="copyright">DSR Design Solutions Pvt. Ltd. &copy; 2026 All Rights Reserved.</p>
       </footer>
     </main>
   );
