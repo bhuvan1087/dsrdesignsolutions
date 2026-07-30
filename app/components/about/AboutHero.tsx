@@ -7,7 +7,7 @@ export function AboutHero() {
     <section
       className="page-hero"
       style={{
-        backgroundImage: `linear-gradient(90deg, rgba(15, 39, 66, 0.96), rgba(15, 39, 66, 0.84)), url("${content.images[section.imageKey as keyof typeof content.images]}")`,
+        backgroundImage: `linear-gradient(90deg, rgba(31, 41, 58, 0.98), rgba(57, 65, 81, 0.94)), url("${content.images[section.imageKey as keyof typeof content.images]}")`,
       }}
     >
       <div>

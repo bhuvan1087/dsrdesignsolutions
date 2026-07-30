@@ -7,10 +7,17 @@ type VisionMissionBandProps = {
 export function VisionMissionBand({ items = content.home.visionMission }: VisionMissionBandProps) {
   return (
     <section className="split-band">
-      {items.map((item) => (
-        <article key={item.eyebrow}>
-          <p className="eyebrow">{item.eyebrow}</p>
-          <h2>{item.title}</h2>
+      {items.map((item, index) => (
+        <article className={index % 2 === 1 ? "is-reversed" : undefined} key={item.eyebrow}>
+          <img
+            src={content.images[item.imageKey as keyof typeof content.images]}
+            alt={item.imageAlt}
+          />
+          <div>
+            <span aria-hidden="true">{index === 0 ? "◎" : "◌"}</span>
+            <p className="eyebrow">{item.eyebrow}</p>
+            <h2>{item.title}</h2>
+          </div>
         </article>
       ))}
     </section>

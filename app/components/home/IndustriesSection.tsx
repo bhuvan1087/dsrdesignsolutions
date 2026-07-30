@@ -17,6 +17,9 @@ export function IndustriesSection() {
           </article>
         ))}
       </div>
+      <a className="industry-explore-link" href={section.exploreHref}>
+        {section.exploreLabel} <span aria-hidden="true">→</span>
+      </a>
     </section>
   );
 }

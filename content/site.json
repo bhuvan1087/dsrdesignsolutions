@@ -10,9 +10,9 @@
   "navigation": [
     { "label": "Home", "href": "/" },
     { "label": "About Us", "href": "/about" },
-    { "label": "Industries", "href": "/#industries" },
-    { "label": "Services", "href": "/#services" },
-    { "label": "Quality & EHS", "href": "/#quality-and-ehs" },
+    { "label": "Industries", "href": "/industries" },
+    { "label": "Services", "href": "/services" },
+    { "label": "Quality", "href": "/#quality-and-ehs" },
     { "label": "Divisions", "href": "/#divisions" },
     { "label": "Blogs", "href": "/#blogs" },
     { "label": "Contact Us", "href": "/#contact-us" }
@@ -21,8 +21,8 @@
     "intro": "Detailed design engineering, CAD, BIM, staffing, and project support for industrial clients.",
     "quickLinks": [
       { "label": "About Us", "href": "/about" },
-      { "label": "Industries", "href": "/#industries" },
-      { "label": "Services", "href": "/#services" },
+      { "label": "Industries", "href": "/industries" },
+      { "label": "Services", "href": "/services" },
       { "label": "Quality & EHS", "href": "/#quality-and-ehs" }
     ],
     "socialLinks": [
@@ -35,17 +35,28 @@
     "homeHero1": "/images/home/petrochemical-engineering.jpg",
     "homeHero2": "/images/home/bim-cad-delivery.jpg",
     "homeHero3": "/images/home/oil-gas-projects.jpg",
+    "homeHero4": "/images/home/jsw-industrial-plant.jpg",
     "homeAbout": "/images/home/about-preview.jpg",
+    "visionConcept": "/images/home/vision-concept.png",
+    "missionConcept": "/images/home/mission-concept.png",
+    "servicePlantEngineering": "/images/services/plant-engineering.jpg",
+    "serviceCad": "/images/services/cad-services.jpg",
+    "serviceBim": "/images/services/bim-services.jpg",
+    "serviceStructuralSteel": "/images/services/structural-steel-detailing.jpg",
+    "serviceProjectManagement": "/images/services/project-management.jpg",
     "industryRefineries": "/images/industries/refineries.jpg",
     "industryPetrochemicals": "/images/industries/petrochemicals.jpg",
     "industryTerminals": "/images/industries/storage-terminals.jpg",
+    "industryInfrastructure": "/images/industries/infrastructure.png",
+    "industrySolarRenewable": "/images/industries/solar-renewable-energy.png",
     "aboutHero": "/images/about/about-hero.jpg"
   },
   "home": {
     "hero": {
-      "eyebrow": "Detailed design engineering company in India",
-      "description": "Multidiscipline engineering, BIM, CAD, and project support for industrial assets.",
+      "eyebrow": "",
+      "description": "",
       "slides": [
+		{ "title": "Steel Industries", "imageKey": "homeHero4" },
         { "title": "Petrochemical Engineering", "imageKey": "homeHero1" },
         { "title": "BIM and CAD Delivery", "imageKey": "homeHero2" },
         { "title": "Oil and Gas Projects", "imageKey": "homeHero3" }
@@ -67,11 +78,15 @@
     "visionMission": [
       {
         "eyebrow": "Our Vision",
-        "title": "To be a trusted engineering partner for resilient industrial growth."
+        "title": "To be a trusted engineering partner for resilient industrial growth.",
+        "imageKey": "visionConcept",
+        "imageAlt": "Futuristic engineering vision concept with illuminated pathway"
       },
       {
         "eyebrow": "Our Mission",
-        "title": "To deliver value beyond drawings through detail, coordination, and dependable execution."
+        "title": "To deliver value beyond drawings through detail, coordination, and dependable execution.",
+        "imageKey": "missionConcept",
+        "imageAlt": "Engineering mission concept with target and industrial delivery path"
       }
     ],
     "values": {
@@ -88,22 +103,25 @@
     },
     "services": {
       "eyebrow": "Our Services",
-      "title": "Comprehensive services for industrial project delivery.",
+      "title": "We offer a comprehensive range of services designed to meet your specific needs and drive your business forward.",
+      "viewAllLabel": "View All Services",
+      "viewAllHref": "/services",
       "items": [
-        { "title": "Plant Engineering Services", "body": "Complete support for industrial projects from concept planning to detailed design." },
-        { "title": "CAD Services", "body": "Precise drafting, modelling, and documentation for multi-discipline teams." },
-        { "title": "BIM Services", "body": "Coordinated 3D workflows that reduce rework and improve construction readiness." },
-        { "title": "Structural Steel Detailing", "body": "Reliable design and detailing packages for steel structures and process facilities." },
-        { "title": "Project Management", "body": "Practical planning, coordination, and reporting to keep delivery moving." }
+        { "title": "Plant Engineering Services", "body": "Complete support for industrial projects from concept planning to detailed design.", "imageKey": "servicePlantEngineering" },
+        { "title": "CAD Service", "body": "Specialized consulting and development advisory services.", "imageKey": "serviceCad" },
+        { "title": "BIM Service", "body": "Coordinated model-based workflows that reduce rework and improve project clarity.", "imageKey": "serviceBim" },
+        { "title": "Structural Steel Designing and Detailing", "body": "Reliable design and detailing packages for steel structures and process facilities.", "imageKey": "serviceStructuralSteel" },
+        { "title": "Project Management", "body": "Practical planning, coordination, and reporting to keep delivery moving.", "imageKey": "serviceProjectManagement" }
       ]
     },
     "industries": {
       "eyebrow": "Industries We Serve",
       "title": "Powering progress across core engineering sectors.",
+      "exploreLabel": "Explore All Industries",
+      "exploreHref": "/industries",
       "items": [
-        { "title": "Oil & Gas Refineries", "imageKey": "industryRefineries" },
-        { "title": "Petrochemicals", "imageKey": "industryPetrochemicals" },
-        { "title": "Storage Terminals", "imageKey": "industryTerminals" }
+        { "title": "Infrastructure", "imageKey": "industryInfrastructure" },
+        { "title": "Solar / Renewable Energy", "imageKey": "industrySolarRenewable" }
       ]
     },
     "clients": {
@@ -135,9 +153,174 @@
       ]
     }
   },
+  "servicesPage": {
+    "hero": {
+      "eyebrow": "Our Services",
+      "title": "Our Services",
+      "body": "We offer a comprehensive range of engineering and technical services designed to meet your specific needs and drive your business forward.",
+      "searchPlaceholder": "Search services or features..."
+    },
+    "items": [
+      {
+        "slug": "bim",
+        "title": "BIM Services",
+        "body": "End-to-end BIM solutions that streamline collaboration, reduce errors, and accelerate project delivery.",
+        "imageKey": "serviceBim",
+        "video": "/videos/services/bim-banner.mp4",
+        "projectVideo": "/videos/services/bim-landmark-project.mp4",
+        "features": ["3D Modelling", "Clash Detection", "Coordination", "Digital Delivery"],
+        "stats": [
+          { "value": "150+", "label": "Completed Projects" },
+          { "value": "60+", "label": "Happy Customers" },
+          { "value": "20+", "label": "Customer Recommendations" },
+          { "value": "75+", "label": "Team Members" }
+        ],
+        "details": [
+          { "title": "BIM Modelling", "body": "Create detailed 3D models with precise geometry and data for better project visualization.", "imageKey": "serviceBim" },
+          { "title": "Scan to Drawing Conversion", "body": "Convert scan data into accurate drawings for seamless project integration.", "imageKey": "serviceCad" },
+          { "title": "Clash Detection", "body": "Identify design conflicts early and reduce coordination issues before execution.", "imageKey": "serviceStructuralSteel" },
+          { "title": "Digital Delivery", "body": "Support teams with model-based documentation, coordination, and handover workflows.", "imageKey": "servicePlantEngineering" }
+        ]
+      },
+      {
+        "slug": "plant-engineering",
+        "title": "Plant Engineering Services",
+        "body": "Comprehensive plant engineering solutions for efficient and optimized industrial operations.",
+        "imageKey": "servicePlantEngineering",
+        "video": "/videos/services/plant-engineering-banner.mp4",
+        "projectVideo": "/videos/services/plant-engineering-project.mp4",
+        "features": ["Process Engineering", "Piping & Pipeline Engineering", "Structural Engineering", "Instrumentation Engineering", "Electrical Engineering", "Civil & Structural Engineering"],
+        "stats": [
+          { "value": "120+", "label": "Plant Deliverables" },
+          { "value": "40+", "label": "Industrial Clients" },
+          { "value": "18+", "label": "Engineering Disciplines" },
+          { "value": "80+", "label": "Specialists" }
+        ],
+        "details": [
+          { "title": "Process Engineering", "body": "Prepare practical process documentation for reliable plant design and operation.", "imageKey": "servicePlantEngineering" },
+          { "title": "Piping & Pipeline Engineering", "body": "Develop routing, layouts, supports, and drawings for efficient piping systems.", "imageKey": "serviceStructuralSteel" },
+          { "title": "Instrumentation Engineering", "body": "Support control, instrumentation, and documentation requirements across projects.", "imageKey": "serviceCad" },
+          { "title": "Civil & Structural Engineering", "body": "Coordinate civil and structural packages for safe industrial execution.", "imageKey": "serviceProjectManagement" }
+        ]
+      },
+      {
+        "slug": "structural-steel-designing-detailing",
+        "title": "Structural Steel Designing and Detailing",
+        "body": "Expert designing and detailing for reliable structural steel solutions.",
+        "imageKey": "serviceStructuralSteel",
+        "video": "/videos/services/structural-steel-banner.mp4",
+        "projectVideo": "/videos/services/structural-steel-project.mp4",
+        "features": ["Steel Modelling", "Connection Details", "Fabrication Drawings", "Checking Support"],
+        "stats": [
+          { "value": "90+", "label": "Steel Packages" },
+          { "value": "35+", "label": "Fabrication Supports" },
+          { "value": "25+", "label": "Review Cycles" },
+          { "value": "50+", "label": "Detailing Experts" }
+        ],
+        "details": [
+          { "title": "Steel Modelling", "body": "Build coordinated steel models for fabrication, erection, and design reviews.", "imageKey": "serviceStructuralSteel" },
+          { "title": "Connection Details", "body": "Prepare connection details aligned with project standards and checking workflows.", "imageKey": "serviceCad" },
+          { "title": "Fabrication Drawings", "body": "Deliver clear fabrication drawings to support shop-floor execution.", "imageKey": "servicePlantEngineering" },
+          { "title": "Checking Support", "body": "Review models and drawings for consistency, completeness, and constructability.", "imageKey": "serviceProjectManagement" }
+        ]
+      },
+      {
+        "slug": "cad",
+        "title": "CAD Services",
+        "body": "Specialized consulting and development advisory services.",
+        "imageKey": "serviceCad",
+        "video": "/videos/services/cad-banner.mp4",
+        "projectVideo": "/videos/services/cad-project.mp4",
+        "features": ["2D Drafting", "3D CAD", "Drawing Conversion", "Design Documentation"],
+        "stats": [
+          { "value": "200+", "label": "Drawings Delivered" },
+          { "value": "45+", "label": "Active Standards" },
+          { "value": "30+", "label": "CAD Specialists" },
+          { "value": "70+", "label": "Conversion Packages" }
+        ],
+        "details": [
+          { "title": "2D Drafting", "body": "Produce clean technical drawings for design, review, and construction release.", "imageKey": "serviceCad" },
+          { "title": "3D CAD", "body": "Create accurate 3D geometry for coordination and design visualization.", "imageKey": "serviceBim" },
+          { "title": "Drawing Conversion", "body": "Convert legacy drawings into usable CAD documentation.", "imageKey": "servicePlantEngineering" },
+          { "title": "Design Documentation", "body": "Maintain organized drawing packages for dependable project handover.", "imageKey": "serviceProjectManagement" }
+        ]
+      },
+      {
+        "slug": "project-management-consultant",
+        "title": "Project Management Consultant Services",
+        "body": "End-to-end project oversight ensuring timely and efficient delivery.",
+        "imageKey": "serviceProjectManagement",
+        "video": "/videos/services/project-management-banner.mp4",
+        "projectVideo": "/videos/services/project-management-project.mp4",
+        "features": ["Planning", "Monitoring", "Coordination", "Reporting"],
+        "stats": [
+          { "value": "85+", "label": "Project Plans" },
+          { "value": "40+", "label": "Client Reviews" },
+          { "value": "55+", "label": "Coordination Cycles" },
+          { "value": "25+", "label": "Reporting Systems" }
+        ],
+        "details": [
+          { "title": "Planning", "body": "Build practical schedules, deliverable plans, and project tracking systems.", "imageKey": "serviceProjectManagement" },
+          { "title": "Monitoring", "body": "Track progress, risks, and actions to keep project delivery visible.", "imageKey": "servicePlantEngineering" },
+          { "title": "Coordination", "body": "Coordinate engineering stakeholders and document dependencies.", "imageKey": "serviceBim" },
+          { "title": "Reporting", "body": "Prepare crisp reporting packs for decisions, reviews, and client updates.", "imageKey": "serviceCad" }
+        ]
+      }
+    ]
+  },
+  "industriesPage": {
+    "hero": {
+      "eyebrow": "",
+      "title": "Industries We Serve",
+      "body": "Powering progress across core engineering sectors with innovative solutions and decades of expertise."
+    },
+    "expertise": {
+      "eyebrow": "Our Industry Expertise",
+      "title": "Our Industry Expertise",
+      "body": "From oil & gas to infrastructure and renewable energy, we deliver specialized engineering solutions tailored to each industry's unique challenges and requirements.",
+      "items": [
+        {
+          "title": "Infrastructure",
+          "body": "Engineering support for bridges, transport systems, utilities, and civil infrastructure projects.",
+          "imageKey": "industryInfrastructure"
+        },
+        {
+          "title": "Solar / Renewable Energy",
+          "body": "Design and documentation support for renewable energy facilities, storage systems, and sustainable assets.",
+          "imageKey": "industrySolarRenewable"
+        },
+        {
+          "title": "Oil & Gas Refineries",
+          "body": "Multidiscipline engineering support for process facilities, refinery upgrades, and industrial assets.",
+          "imageKey": "industryRefineries"
+        },
+        {
+          "title": "Petrochemicals",
+          "body": "Practical plant engineering, CAD, BIM, and documentation support for petrochemical projects.",
+          "imageKey": "industryPetrochemicals"
+        },
+        {
+          "title": "Storage Terminals",
+          "body": "Engineering support for storage, terminal, handling, and connected industrial facilities.",
+          "imageKey": "industryTerminals"
+        },
+        {
+          "title": "Steel Industries",
+          "body": "Design assistance and project support for steel plants, industrial units, and heavy manufacturing.",
+          "imageKey": "homeHero4"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Have an Industry-Specific Requirement?",
+      "body": "Our team can support your project with focused engineering, documentation, BIM, CAD, and project delivery services.",
+      "primaryLabel": "Contact Us",
+      "primaryHref": "/#contact-us"
+    }
+  },
   "aboutPage": {
     "hero": {
-      "eyebrow": "About Us",
+      "eyebrow": "",
       "title": "About Our Company",
       "body": "We are a team of dedicated engineering professionals committed to delivering innovative, practical, and high-quality solutions that transform industries and improve project outcomes.",
       "imageKey": "aboutHero"

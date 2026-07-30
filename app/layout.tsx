@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   description:
     "DSR Design Solutions provides detailed design engineering, CAD, BIM, project support, staffing, and training for industrial projects.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/images/brand/dsr-favicon.svg",
+    shortcut: "/images/brand/dsr-favicon.svg",
   },
   openGraph: {
     title: "DSR Design Solutions",
