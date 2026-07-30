@@ -166,8 +166,8 @@
         "title": "BIM Services",
         "body": "End-to-end BIM solutions that streamline collaboration, reduce errors, and accelerate project delivery.",
         "imageKey": "serviceBim",
-        "video": "/videos/services/bim-banner.mp4",
-        "projectVideo": "/videos/services/bim-landmark-project.mp4",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785416246/bim-banner_uy6vjg.mp4",
+        "projectVideo": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785413563/bim-landmark-project_pbfd7p.mp4",
         "features": ["3D Modelling", "Clash Detection", "Coordination", "Digital Delivery"],
         "stats": [
           { "value": "150+", "label": "Completed Projects" },
@@ -187,7 +187,7 @@
         "title": "Plant Engineering Services",
         "body": "Comprehensive plant engineering solutions for efficient and optimized industrial operations.",
         "imageKey": "servicePlantEngineering",
-        "video": "/videos/services/plant-engineering-banner.mp4",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785413588/plant-engineering-banner_fsxq9r.mp4",
         "projectVideo": "/videos/services/plant-engineering-project.mp4",
         "features": ["Process Engineering", "Piping & Pipeline Engineering", "Structural Engineering", "Instrumentation Engineering", "Electrical Engineering", "Civil & Structural Engineering"],
         "stats": [
@@ -229,7 +229,7 @@
         "title": "CAD Services",
         "body": "Specialized consulting and development advisory services.",
         "imageKey": "serviceCad",
-        "video": "/videos/services/cad-banner.mp4",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785413570/cad-banner_pewse4.mp4",
         "projectVideo": "/videos/services/cad-project.mp4",
         "features": ["2D Drafting", "3D CAD", "Drawing Conversion", "Design Documentation"],
         "stats": [
