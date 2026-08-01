@@ -18,6 +18,16 @@
   ],
   "footer": {
     "intro": "Detailed design engineering, CAD, BIM, staffing, and project support for industrial clients.",
+    "addresses": [
+      {
+        "label": "Registered Office",
+        "lines": ["Mangalore, Karnataka, India"]
+      },
+      {
+        "label": "Engineering Office",
+        "lines": ["New Delhi, India"]
+      }
+    ],
     "quickLinks": [
       { "label": "About Us", "href": "/about" },
       { "label": "Industries", "href": "/industries" },

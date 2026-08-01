@@ -17,9 +17,21 @@ export function SiteFooter({ homeLinks = false }: SiteFooterProps) {
   return (
     <footer className="footer" id="contact-us">
       <div className="footer-brand">
-        <img src={content.company.logo} alt={content.company.name} />
-        <h2>{content.company.name}</h2>
+        <div className="footer-brand-row">
+          <img src={content.company.logo} alt={content.company.name} />
+          <h2>{content.company.name}</h2>
+        </div>
         <p>{content.footer.intro}</p>
+        <div className="footer-addresses">
+          {content.footer.addresses.map((address) => (
+            <div key={address.label}>
+              <strong>{address.label}</strong>
+              {address.lines.map((line) => (
+                <span key={line}>{line}</span>
+              ))}
+            </div>
+          ))}
+        </div>
       </div>
       <nav aria-label="Footer quick links">
         <h3>Quick Links</h3>
