@@ -21,13 +21,13 @@ export default function IndustriesPage() {
         </div>
         <div className="industries-page-grid">
           {page.expertise.items.map((item) => (
-            <article className="industries-page-card" key={item.title}>
+            <a className="industries-page-card" href={`/industries/${item.slug}`} key={item.title}>
               <img src={content.images[item.imageKey as keyof typeof content.images]} alt="" />
               <div>
                 <h3>{item.title}</h3>
                 <p>{item.body}</p>
               </div>
-            </article>
+            </a>
           ))}
         </div>
       </section>

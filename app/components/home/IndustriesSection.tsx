@@ -11,10 +11,10 @@ export function IndustriesSection() {
       </div>
       <div className="industry-grid">
         {section.items.map((item) => (
-          <article className="industry-card" key={item.title}>
+          <a className="industry-card" href={item.href} key={item.title}>
             <img src={content.images[item.imageKey as keyof typeof content.images]} alt="" />
             <h3>{item.title}</h3>
-          </article>
+          </a>
         ))}
       </div>
       <a className="industry-explore-link" href={section.exploreHref}>

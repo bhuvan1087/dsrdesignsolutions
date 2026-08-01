@@ -14,8 +14,7 @@
     { "label": "Services", "href": "/services" },
     { "label": "Quality", "href": "/#quality-and-ehs" },
     { "label": "Divisions", "href": "/#divisions" },
-    { "label": "Blogs", "href": "/#blogs" },
-    { "label": "Contact Us", "href": "/#contact-us" }
+    { "label": "Blogs", "href": "/#blogs" }
   ],
   "footer": {
     "intro": "Detailed design engineering, CAD, BIM, staffing, and project support for industrial clients.",
@@ -49,7 +48,8 @@
     "industryTerminals": "/images/industries/storage-terminals.jpg",
     "industryInfrastructure": "/images/industries/infrastructure.png",
     "industrySolarRenewable": "/images/industries/solar-renewable-energy.png",
-    "aboutHero": "/images/about/about-hero.jpg"
+    "aboutHero": "/images/about/about-hero.jpg",
+    "contactHero": "/images/contact/GetInTouch-hero11.jfif"
   },
   "home": {
     "hero": {
@@ -107,11 +107,11 @@
       "viewAllLabel": "View All Services",
       "viewAllHref": "/services",
       "items": [
-        { "title": "Plant Engineering Services", "body": "Complete support for industrial projects from concept planning to detailed design.", "imageKey": "servicePlantEngineering" },
-        { "title": "CAD Service", "body": "Specialized consulting and development advisory services.", "imageKey": "serviceCad" },
-        { "title": "BIM Service", "body": "Coordinated model-based workflows that reduce rework and improve project clarity.", "imageKey": "serviceBim" },
-        { "title": "Structural Steel Designing and Detailing", "body": "Reliable design and detailing packages for steel structures and process facilities.", "imageKey": "serviceStructuralSteel" },
-        { "title": "Project Management", "body": "Practical planning, coordination, and reporting to keep delivery moving.", "imageKey": "serviceProjectManagement" }
+        { "title": "Plant Engineering Services", "body": "Complete support for industrial projects from concept planning to detailed design.", "imageKey": "servicePlantEngineering", "href": "/services/plant-engineering" },
+        { "title": "CAD Service", "body": "Specialized consulting and development advisory services.", "imageKey": "serviceCad", "href": "/services/cad" },
+        { "title": "BIM Service", "body": "Coordinated model-based workflows that reduce rework and improve project clarity.", "imageKey": "serviceBim", "href": "/services/bim" },
+        { "title": "Structural Steel Designing and Detailing", "body": "Reliable design and detailing packages for steel structures and process facilities.", "imageKey": "serviceStructuralSteel", "href": "/services/structural-steel-designing-detailing" },
+        { "title": "Project Management", "body": "Practical planning, coordination, and reporting to keep delivery moving.", "imageKey": "serviceProjectManagement", "href": "/services/project-management-consultant" }
       ]
     },
     "industries": {
@@ -120,8 +120,8 @@
       "exploreLabel": "Explore All Industries",
       "exploreHref": "/industries",
       "items": [
-        { "title": "Infrastructure", "imageKey": "industryInfrastructure" },
-        { "title": "Solar / Renewable Energy", "imageKey": "industrySolarRenewable" }
+        { "title": "Infrastructure", "imageKey": "industryInfrastructure", "href": "/industries/infrastructure" },
+        { "title": "Solar / Renewable Energy", "imageKey": "industrySolarRenewable", "href": "/industries/solar-renewable-energy" }
       ]
     },
     "clients": {
@@ -280,34 +280,46 @@
       "body": "From oil & gas to infrastructure and renewable energy, we deliver specialized engineering solutions tailored to each industry's unique challenges and requirements.",
       "items": [
         {
+          "slug": "infrastructure",
           "title": "Infrastructure",
           "body": "Engineering support for bridges, transport systems, utilities, and civil infrastructure projects.",
-          "imageKey": "industryInfrastructure"
+          "imageKey": "industryInfrastructure",
+          "details": ["Bridge and transport infrastructure documentation", "Civil layout and utility coordination", "BIM and CAD support for construction-ready deliverables", "Project documentation and technical review support"]
         },
         {
+          "slug": "solar-renewable-energy",
           "title": "Solar / Renewable Energy",
           "body": "Design and documentation support for renewable energy facilities, storage systems, and sustainable assets.",
-          "imageKey": "industrySolarRenewable"
+          "imageKey": "industrySolarRenewable",
+          "details": ["Solar plant layout and documentation support", "Renewable asset design coordination", "Storage and utility interface support", "Sustainable project drafting and model workflows"]
         },
         {
+          "slug": "oil-gas-refineries",
           "title": "Oil & Gas Refineries",
           "body": "Multidiscipline engineering support for process facilities, refinery upgrades, and industrial assets.",
-          "imageKey": "industryRefineries"
+          "imageKey": "industryRefineries",
+          "details": ["Process and piping documentation support", "Refinery upgrade drawing packages", "Multidiscipline CAD and BIM coordination", "Construction and review deliverable support"]
         },
         {
+          "slug": "petrochemicals",
           "title": "Petrochemicals",
           "body": "Practical plant engineering, CAD, BIM, and documentation support for petrochemical projects.",
-          "imageKey": "industryPetrochemicals"
+          "imageKey": "industryPetrochemicals",
+          "details": ["Plant engineering and model coordination", "Piping, structural, and equipment documentation", "CAD conversion and detailed drawing support", "Project execution documentation packages"]
         },
         {
+          "slug": "storage-terminals",
           "title": "Storage Terminals",
           "body": "Engineering support for storage, terminal, handling, and connected industrial facilities.",
-          "imageKey": "industryTerminals"
+          "imageKey": "industryTerminals",
+          "details": ["Tank farm and terminal layout support", "Piping and utility drawing coordination", "Documentation for handling and transfer systems", "Engineering support for connected industrial assets"]
         },
         {
+          "slug": "steel-industries",
           "title": "Steel Industries",
           "body": "Design assistance and project support for steel plants, industrial units, and heavy manufacturing.",
-          "imageKey": "homeHero4"
+          "imageKey": "homeHero4",
+          "details": ["Steel plant documentation and layout support", "Structural detailing and checking assistance", "Industrial project CAD and BIM coordination", "Manufacturing and heavy-industry engineering support"]
         }
       ]
     },
@@ -315,7 +327,7 @@
       "title": "Have an Industry-Specific Requirement?",
       "body": "Our team can support your project with focused engineering, documentation, BIM, CAD, and project delivery services.",
       "primaryLabel": "Contact Us",
-      "primaryHref": "/#contact-us"
+      "primaryHref": "/contact"
     }
   },
   "aboutPage": {
@@ -374,7 +386,7 @@
       "title": "Ready to Work With Us?",
       "body": "Join the many satisfied clients who have experienced our exceptional engineering solutions.",
       "primaryLabel": "Contact Us",
-      "primaryHref": "/#contact-us",
+      "primaryHref": "/contact",
       "secondaryLabel": "Explore Our Services",
       "secondaryHref": "/#services"
     },
@@ -398,5 +410,66 @@
         "title": "To support clients with coordinated, buildable, and dependable engineering solutions."
       }
     ]
+  },
+  "contactPage": {
+    "hero": {
+      "title": "",
+      "body": "Connect with our team for engineering, BIM, CAD, project support, and staffing requirements.",
+      "imageKey": "contactHero"
+    },
+    "intro": {
+      "eyebrow": "",
+      "title": "Get in Touch",
+      "body": "Share your requirement and our team will get back with the right engineering support."
+    },
+    "details": [
+      { "label": "Phone", "value": "+91 00000 00000", "href": "tel:+910000000000" },
+      { "label": "Email", "value": "info@dsrdesignsolutions.com", "href": "mailto:info@dsrdesignsolutions.com" },
+      { "label": "Location", "value": "Mangalore, Karnataka, India", "href": "#" }
+    ],
+    "cards": [
+      { "title": "Call Us", "icon": "phone", "lines": ["+91 00000 00000", "+91 00000 00000"], "href": "tel:+910000000000" },
+      { "title": "Email Us", "icon": "mail", "lines": ["info@dsrdesignsolutions.com"], "href": "mailto:info@dsrdesignsolutions.com" },
+      { "title": "WhatsApp", "icon": "whatsapp", "lines": ["+91 00000 00000"], "href": "https://wa.me/910000000000" }
+    ],
+    "form": {
+      "title": "Send Us a Message",
+      "fields": [
+        { "name": "name", "label": "Name", "type": "text", "placeholder": "Your name" },
+        { "name": "email", "label": "Email", "type": "email", "placeholder": "Your email" },
+        { "name": "phone", "label": "Phone", "type": "tel", "placeholder": "Your phone number" },
+        { "name": "service", "label": "Service Required", "type": "text", "placeholder": "BIM, CAD, Plant Engineering..." }
+      ],
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your requirement",
+      "submitLabel": "Submit Enquiry"
+    },
+    "locations": {
+      "eyebrow": "",
+      "title": "Our Locations",
+      "body": "With offices around the world, we're well-positioned to serve clients globally. Select a location to view details.",
+      "tabs": ["Global Headquarters", "Global Engineering Office"],
+      "items": ["Mangalore", "New Delhi", "Mumbai", "Hyderabad", "Abu Dhabi", "Texas"],
+      "mapTitle": "Our Location Map",
+      "mapEmbedUrl": "https://www.google.com/maps?q=Mangalore%2C%20Karnataka%2C%20India&output=embed",
+      "cardTag": "Headquarters",
+      "cardTitle": "Global Headquarters",
+      "cardBody": "Mangalore, Karnataka, India"
+    },
+    "faq": {
+      "eyebrow": "Help",
+      "title": "Frequently Asked Questions",
+      "items": [
+        { "question": "What services can I enquire about?", "answer": "You can contact us for detailed engineering, BIM, CAD, project management, manpower, and industry-specific support." },
+        { "question": "How soon will the team respond?", "answer": "We aim to review enquiries promptly and respond with the right next step for your requirement." },
+        { "question": "Can I request support for a specific industry?", "answer": "Yes. Share your industry, scope, and deliverables so we can align the right technical team." }
+      ]
+    },
+    "cta": {
+      "title": "Let's Build Something Reliable Together",
+      "body": "Our team is ready to support your next engineering requirement.",
+      "primaryLabel": "Explore Services",
+      "primaryHref": "/services"
+    }
   }
 }

@@ -14,7 +14,7 @@ export function VisionMissionBand({ items = content.home.visionMission }: Vision
             alt={item.imageAlt}
           />
           <div>
-            <span aria-hidden="true">{index === 0 ? "◎" : "◌"}</span>
+            <span className={index === 0 ? "vision-icon" : "mission-icon"} aria-hidden="true" />
             <p className="eyebrow">{item.eyebrow}</p>
             <h2>{item.title}</h2>
           </div>

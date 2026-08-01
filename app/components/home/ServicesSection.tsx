@@ -11,13 +11,13 @@ export function ServicesSection() {
       </div>
       <div className="home-services-grid">
         {section.items.map((item) => (
-          <article className="home-service-card" key={item.title}>
+          <a className="home-service-card" href={item.href} key={item.title}>
             <img src={content.images[item.imageKey as keyof typeof content.images]} alt="" />
             <div>
               <h3>{item.title}</h3>
               <p>{item.body}</p>
             </div>
-          </article>
+          </a>
         ))}
         <a className="home-service-card service-view-all-card" href={section.viewAllHref}>
           <strong>{section.viewAllLabel}</strong>

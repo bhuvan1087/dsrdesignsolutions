@@ -14,7 +14,7 @@ import { SiteHeader } from "./components/layout/SiteHeader";
 export default function Home() {
   return (
     <main>
-      <SiteHeader activeLabel="Home" contactHref="#contact-us" />
+      <SiteHeader activeLabel="Home" />
       <HomeHero />
       <HomeAboutPreview />
       <VisionMissionBand />

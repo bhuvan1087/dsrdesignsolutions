@@ -16,23 +16,23 @@ export function SiteFooter({ homeLinks = false }: SiteFooterProps) {
 
   return (
     <footer className="footer" id="contact-us">
-      <div>
-        <p className="eyebrow">Reach Us</p>
+      <div className="footer-brand">
+        <img src={content.company.logo} alt={content.company.name} />
         <h2>{content.company.name}</h2>
         <p>{content.footer.intro}</p>
       </div>
-      <div>
+      <nav aria-label="Footer quick links">
         <h3>Quick Links</h3>
         {quickLinks.map((link) => (
           <a href={link.href} key={link.label}>
             {link.label}
           </a>
         ))}
-      </div>
-      <div>
+      </nav>
+      <address>
         <h3>Contact Us</h3>
-        <p>{content.company.phone}</p>
-        <p>{content.company.email}</p>
+        <a href={`tel:${content.company.phone.replace(/\s/g, "")}`}>{content.company.phone}</a>
+        <a href={`mailto:${content.company.email}`}>{content.company.email}</a>
         <div className="socials">
           {content.footer.socialLinks.map((link) => (
             <a href={link.href} key={link.label}>
@@ -40,7 +40,7 @@ export function SiteFooter({ homeLinks = false }: SiteFooterProps) {
             </a>
           ))}
         </div>
-      </div>
+      </address>
       <p className="copyright">{content.company.copyright}</p>
     </footer>
   );

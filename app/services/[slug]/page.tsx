@@ -62,7 +62,7 @@ export default function ServiceDetailPage({ params }: ServicePageProps) {
               <div>
                 <h3>{detail.title}</h3>
                 <p>{detail.body}</p>
-                <a href="/#contact-us">View More</a>
+                <a href="/contact">View More</a>
               </div>
             </article>
           ))}
@@ -75,7 +75,7 @@ export default function ServiceDetailPage({ params }: ServicePageProps) {
         </video>
         <div>
           <h2>Our Landmark Projects</h2>
-          <a href="/#contact-us">View All Projects</a>
+          <a href="/contact">View All Projects</a>
         </div>
       </section>
 
@@ -83,7 +83,7 @@ export default function ServiceDetailPage({ params }: ServicePageProps) {
         <h2>Ready to Transform Your Projects with {service.title.replace(" Services", "")}?</h2>
         <p>Partner with us for dependable engineering support that improves coordination, delivery, and project outcomes.</p>
         <div>
-          <a href="/#contact-us">Get Consultation</a>
+          <a href="/contact">Get Consultation</a>
           <a href="/services">Explore All Services</a>
         </div>
       </section>

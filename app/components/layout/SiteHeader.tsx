@@ -5,7 +5,7 @@ type SiteHeaderProps = {
   contactHref?: string;
 };
 
-export function SiteHeader({ activeLabel, contactHref = "/#contact-us" }: SiteHeaderProps) {
+export function SiteHeader({ activeLabel, contactHref = "/contact" }: SiteHeaderProps) {
   return (
     <header className="site-header">
       <a className="brand" href="/" aria-label={`${content.company.name} home`}>
