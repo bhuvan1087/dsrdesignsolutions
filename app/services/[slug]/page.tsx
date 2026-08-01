@@ -28,7 +28,7 @@ export default function ServiceDetailPage({ params }: ServicePageProps) {
     <main>
       <SiteHeader activeLabel="Services" />
       <section className="service-detail-hero">
-        <video autoPlay muted loop playsInline poster={poster}>
+        <video autoPlay controls muted loop playsInline poster={poster}>
           <source src={service.video} type="video/mp4" />
         </video>
         <div className="service-detail-hero-overlay" />
