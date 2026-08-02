@@ -14,7 +14,7 @@ export function DivisionsSection() {
           <article key={item.title}>
             <h3>{item.title}</h3>
             <p>{item.body}</p>
-            <a href="/contact">Learn More</a>
+            <a href={item.href}>Learn More</a>
           </article>
         ))}
       </div>

@@ -35,6 +35,30 @@ export default function ServicesPage() {
           ))}
         </div>
       </section>
+      <section className="services-process-section">
+        <div className="section-heading compact">
+          {page.process.eyebrow ? <p className="eyebrow">{page.process.eyebrow}</p> : null}
+          <h2>{page.process.title}</h2>
+          <p>{page.process.body}</p>
+        </div>
+        <div className="services-process-grid">
+          {page.process.steps.map((step, index) => (
+            <article
+              className={index >= 3 ? "is-brand-step" : undefined}
+              key={step.title}
+            >
+              <div className="process-heading">
+                <span className="process-letter">{step.letter}</span>
+                <div>
+                  <strong>{step.word}</strong>
+                  <h3>{step.title}</h3>
+                </div>
+              </div>
+              <p>{step.body}</p>
+            </article>
+          ))}
+        </div>
+      </section>
       <SiteFooter />
     </main>
   );

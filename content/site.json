@@ -13,7 +13,7 @@
     { "label": "Industries", "href": "/industries" },
     { "label": "Services", "href": "/services" },
     { "label": "Quality", "href": "/#quality-and-ehs" },
-    { "label": "Divisions", "href": "/#divisions" },
+    { "label": "Divisions", "href": "/division" },
     { "label": "Blogs", "href": "/#blogs" }
   ],
   "footer": {
@@ -143,9 +143,9 @@
       "eyebrow": "Our Divisions",
       "title": "Specialized teams working together for comprehensive solutions.",
       "items": [
-        { "title": "Secondment Services", "body": "Specialist engineering talent deployed to client teams for fast, focused project support." },
-        { "title": "Manpower Services", "body": "Role-fit staffing support for design offices, construction teams, and operations groups." },
-        { "title": "Professional Training", "body": "Practical technical training for graduates and working engineers entering industrial design." }
+        { "title": "Secondment Services", "body": "Specialist engineering talent deployed to client teams for fast, focused project support.", "href": "/division" },
+        { "title": "Manpower Services", "body": "Role-fit staffing support for design offices, construction teams, and operations groups.", "href": "/division" },
+        { "title": "Professional Training", "body": "Practical technical training for graduates and working engineers entering industrial design.", "href": "/division" }
       ]
     },
     "network": {
@@ -161,6 +161,50 @@
         { "title": "How BIM improves field coordination", "body": "Practical observations from detailed engineering and industrial project execution." },
         { "title": "Quality checks before IFC release", "body": "Practical observations from detailed engineering and industrial project execution." }
       ]
+    }
+  },
+  "divisionPage": {
+    "hero": {
+      "eyebrow": "",
+      "title": "Our Divisions",
+      "body": "Specialized engineering support divisions working together to help clients scale delivery, strengthen teams, and build technical capability."
+    },
+    "intro": {
+      "eyebrow": "Specialized Expertise",
+      "title": "Focused divisions for flexible project support.",
+      "body": "Our divisions combine design engineering, skilled manpower, secondment support, and professional training so clients can access the right capability at the right time."
+    },
+    "items": [
+      {
+        "title": "Secondment Services",
+        "body": "Deploy experienced engineering professionals directly into client teams for fast, focused, project-aligned support.",
+        "imageKey": "serviceProjectManagement",
+        "features": ["Client-site engineering support", "Flexible short-term and long-term deployment", "Discipline-specific technical resources", "Project reporting and coordination"]
+      },
+      {
+        "title": "Manpower Services",
+        "body": "Provide reliable engineering and technical manpower for design offices, construction teams, and industrial project execution.",
+        "imageKey": "servicePlantEngineering",
+        "features": ["Screened technical talent", "Role-fit staffing support", "Engineering and drafting resources", "Scalable project teams"]
+      },
+      {
+        "title": "Professional Training",
+        "body": "Prepare graduates and working engineers with practical industrial design, CAD, BIM, and project workflow training.",
+        "imageKey": "serviceBim",
+        "features": ["CAD and BIM training", "Industrial design fundamentals", "Project documentation workflows", "Job-ready engineering skills"]
+      }
+    ],
+    "collaboration": {
+      "eyebrow": "How Our Divisions Work Together",
+      "title": "Integrated support from talent to delivery.",
+      "body": "Training builds capability, manpower services provide scalable teams, and secondment places the right specialists inside live client projects.",
+      "imageKey": "serviceBim"
+    },
+    "cta": {
+      "title": "Need Dedicated Engineering Support?",
+      "body": "Tell us your requirement and we will suggest the right division-led support model.",
+      "primaryLabel": "Get in Touch",
+      "primaryHref": "/contact"
     }
   },
   "servicesPage": {
@@ -276,7 +320,50 @@
           { "title": "Reporting", "body": "Prepare crisp reporting packs for decisions, reviews, and client updates.", "imageKey": "serviceCad" }
         ]
       }
-    ]
+    ],
+    "process": {
+      "eyebrow": "",
+      "title": "Our Service Process",
+      "body": "Our proven approach ensures every engineering requirement is understood, planned, delivered, and supported with clarity.",
+      "steps": [
+        {
+          "letter": "C",
+          "word": "Consultation",
+          "title": "Initial Consultation",
+          "body": "We begin by understanding your project goals, scope, timelines, and technical requirements."
+        },
+        {
+          "letter": "R",
+          "word": "Roadmap",
+          "title": "Assessment & Planning",
+          "body": "Our team reviews available information and prepares a practical execution plan for the work."
+        },
+        {
+          "letter": "E",
+          "word": "Engineering",
+          "title": "Solution Design",
+          "body": "We develop the right engineering, BIM, CAD, or project support solution for your requirement."
+        },
+        {
+          "letter": "D",
+          "word": "Deployment",
+          "title": "Implementation",
+          "body": "The planned work is executed with disciplined coordination, documentation, and progress tracking."
+        },
+        {
+          "letter": "S",
+          "word": "Scrutiny",
+          "title": "Testing & Validation",
+          "body": "Deliverables are checked for quality, consistency, compliance, and project readiness."
+        },
+        {
+          "letter": "R",
+          "word": "Reliability Support",
+          "title": "Ongoing Support",
+          "body": "We continue supporting revisions, coordination needs, and next-stage project requirements."
+        }
+      ]
+    }
   },
   "industriesPage": {
     "hero": {
