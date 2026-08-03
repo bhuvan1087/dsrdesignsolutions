@@ -4,7 +4,7 @@
     "tagline": "Design and Engineering Solutions",
     "phone": "+91 00000 00000",
     "email": "info@dsrdesignsolutions.com",
-    "logo": "/images/brand/DSR_LOGO_NEW.svg",
+    "logo": "/images/brand/dsr-logo_remb-removebg.png",
     "copyright": "DSR Design Solutions Pvt. Ltd. © 2026 All Rights Reserved."
   },
   "navigation": [
@@ -66,10 +66,10 @@
       "eyebrow": "",
       "description": "",
       "slides": [
+		{ "title": "CAD & FEA Services", "imageKey": "homeHero2" },
 		{ "title": "Steel Industries", "imageKey": "homeHero4" },
         { "title": "Petrochemical Engineering", "imageKey": "homeHero1" },
-        { "title": "BIM and CAD Delivery", "imageKey": "homeHero2" },
-        { "title": "Oil and Gas Projects", "imageKey": "homeHero3" }
+         { "title": "Oil and Gas Projects", "imageKey": "homeHero3" }
       ]
     },
     "aboutPreview": {
@@ -280,7 +280,7 @@
       },
       {
         "slug": "cad",
-        "title": "CAD Services",
+        "title": "New Product Development Services",
         "body": "Specialized consulting and development advisory services.",
         "imageKey": "serviceCad",
         "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785413570/cad-banner_pewse4.mp4",

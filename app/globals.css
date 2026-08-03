@@ -67,7 +67,8 @@ img {
 .brand-logo {
   background: #ffffff;
   height: 74px;
-  object-fit: contain;
+  cursor: pointer;
+  user-select: none;
   width: 180px;
 }
 
