@@ -4,16 +4,24 @@ import { SiteHeader } from "../components/layout/SiteHeader";
 
 export default function ServicesPage() {
   const page = content.servicesPage;
+  const heroBody = Array.isArray(page.hero.body) ? page.hero.body : [page.hero.body];
 
   return (
     <main>
       <SiteHeader activeLabel="Services" />
-      <section className="services-page-hero">
+      <section
+        className="services-page-hero"
+        style={{
+          backgroundImage: `linear-gradient(90deg, rgba(31, 41, 58, 0.98), rgba(57, 65, 81, 0.94)), url("${content.images[page.hero.imageKey as keyof typeof content.images]}")`,
+        }}
+      >
         <div>
           <h1>
             Our <span>Services</span>
           </h1>
-          <p>{page.hero.body}</p>
+          {heroBody.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
         </div>
       </section>
       <section className="services-page-section">

@@ -2,42 +2,107 @@
   "company": {
     "name": "DSR Design and Engineering Solutions",
     "tagline": "Design and Engineering Solutions",
-    "phone": "+91 00000 00000",
+    "phone": "+91 92463 94003",
     "email": "info@dsrdesignsolutions.com",
     "logo": "/images/brand/dsr-logo_remb-removebg.png",
     "copyright": "DSR Design Solutions Pvt. Ltd. © 2026 All Rights Reserved."
   },
   "navigation": [
-    { "label": "Home", "href": "/" },
-    { "label": "About Us", "href": "/about" },
-    { "label": "Industries", "href": "/industries" },
-    { "label": "Services", "href": "/services" },
-    { "label": "Quality", "href": "/#quality-and-ehs" },
-    { "label": "Divisions", "href": "/division" },
-    { "label": "Blogs", "href": "/#blogs" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About Us",
+      "href": "/about"
+    },
+    {
+      "label": "Industries",
+      "href": "/industries"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Quality",
+      "href": "/#quality-and-ehs"
+    },
+    {
+      "label": "Divisions",
+      "href": "/division"
+    },
+    {
+      "label": "Blogs",
+      "href": "/#blogs"
+    }
   ],
   "footer": {
     "intro": "Detailed design engineering, CAD, BIM, staffing, and project support for industrial clients.",
     "addresses": [
       {
         "label": "Registered Office",
-        "lines": ["Mangalore, Karnataka, India"]
+        "lines": [
+          "Mangalore, Karnataka, India"
+        ]
       },
       {
         "label": "Engineering Office",
-        "lines": ["New Delhi, India"]
+        "lines": [
+          "New Delhi, India"
+        ]
       }
     ],
     "quickLinks": [
-      { "label": "About Us", "href": "/about" },
-      { "label": "Industries", "href": "/industries" },
-      { "label": "Services", "href": "/services" },
-      { "label": "Quality & EHS", "href": "/#quality-and-ehs" }
+      {
+        "label": "About Us",
+        "href": "/about"
+      },
+      {
+        "label": "Industries",
+        "href": "/industries"
+      },
+      {
+        "label": "Services",
+        "href": "/services"
+      },
+      {
+        "label": "Quality & EHS",
+        "href": "/#quality-and-ehs"
+      }
+    ],
+    "globalPresence": [
+      "USA",
+      "UK",
+      "India",
+      "Australia"
     ],
     "socialLinks": [
-      { "label": "LinkedIn", "href": "#" },
-      { "label": "Facebook", "href": "#" },
-      { "label": "X", "href": "#" }
+      {
+        "label": "YouTube",
+        "icon": "youtube",
+        "href": "https://www.youtube.com/@DSR_Solutions"
+      },
+      {
+        "label": "X",
+        "icon": "x",
+        "href": "https://twitter.com/DSR_Solutions"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "linkedin",
+        "href": "https://www.linkedin.com/company/dsr-design-&-engineering-solutions?originalSubdomain=in"
+      },
+      {
+        "label": "Facebook",
+        "icon": "facebook",
+        "href": "https://www.facebook.com/dsrdesignsolutions"
+      },
+      {
+        "label": "WhatsApp",
+        "icon": "whatsapp",
+        "href": "https://wa.me/919246394003"
+      }
     ]
   },
   "images": {
@@ -59,17 +124,82 @@
     "industryInfrastructure": "/images/industries/infrastructure.png",
     "industrySolarRenewable": "/images/industries/solar-renewable-energy.png",
     "aboutHero": "/images/about/about-hero.jpg",
-    "contactHero": "/images/contact/GetInTouch-hero11.jfif"
+    "contactHero": "/images/contact/GetInTouch-hero11.jfif",
+    "serviceNewProduct": "/images/services/dsr/3d-cad-model.jpg",
+    "serviceSimulation": "/images/services/dsr/finite-element-analysis.jpg",
+    "servicePlantEngineeringNew": "/images/services/dsr/plant-layout.jpg",
+    "serviceTechnicalResources": "/images/services/dsr/technical-resources.jpg",
+    "serviceBimNew": "/images/services/dsr/bim-modelling.jfif",
+    "servicePressureVessels": "/images/services/dsr/storage-tank-3d.jfif",
+    "serviceOilGasNew": "/images/services/dsr/oil-gas-industry.jfif",
+    "serviceMaterialHandling": "/images/services/dsr/conveyor-design.jpg",
+    "detail3dCad": "/images/services/dsr/3d-cad-model.jpg",
+    "detailResearchDevelopment": "/images/services/dsr/research-development.jpg",
+    "detailReverseEngineering": "/images/services/dsr/reverse-engineering.jpg",
+    "detail2dDrafting": "/images/services/dsr/2d-drafting.jpg",
+    "detailDrawingConversion": "/images/services/dsr/drawing-conversion.jpg",
+    "detailFiniteElement": "/images/services/dsr/finite-element-analysis.jpg",
+    "detailDynamicAnalysis": "/images/services/dsr/dynamic-analysis.jpg",
+    "detailThermalAnalysis": "/images/services/dsr/thermal-analysis.jpg",
+    "detailFluidAnalysis": "/images/services/dsr/fluid-analysis.jpg",
+    "detailPlantLayout": "/images/services/dsr/plant-layout.jpg",
+    "detailPipingInstrumentation": "/images/services/dsr/piping-instrumentation-design.jfif",
+    "detailProcessEngineering": "/images/services/dsr/process-engineering.jfif",
+    "detailStructuralEngineering": "/images/services/dsr/structural-engineering.jpg",
+    "detailSkilledResources": "/images/services/dsr/technical-resources.jpg",
+    "detailWorkSupport": "/images/services/dsr/work-support.jpg",
+    "detailExperiencedTeam": "/images/services/dsr/experienced-team.jpg",
+    "detailBimModeling": "/images/services/dsr/bim-modelling.jfif",
+    "detailScanToModel": "/images/services/dsr/scan-to-model.jpg",
+    "detailClashDetection": "/images/services/dsr/clash-detection.jfif",
+    "detailBoilersChimneys": "/images/services/dsr/boilers-chimneys.jpeg",
+    "detailStorageTank": "/images/services/dsr/storage-tank.jpg",
+    "detailStorageTank3d": "/images/services/dsr/storage-tank-3d.jfif",
+    "detailHeatExchangers": "/images/services/dsr/heat-exchangers.jpeg",
+    "detailChillers": "/images/services/dsr/chillers.jpeg",
+    "detailOilRefineries": "/images/services/dsr/oil-refineries.jfif",
+    "detailPipeline": "/images/services/dsr/pipeline.jfif",
+    "detailOilGasAssets": "/images/services/dsr/oil-gas-assets.jfif",
+    "detailConveyor": "/images/services/dsr/conveyor-design.jpg",
+    "detailMaterialMoving": "/images/services/dsr/piping.jfif",
+    "detailPackaging": "/images/services/dsr/packaging-design.jpg",
+    "detailSpecialMachine": "/images/services/dsr/special-purpose-machine-design.jpg",
+    "servicesHeroGears": "/images/services/services-hero-gears.png",
+    "serviceTechnicalResourcesTeam": "/images/services/dsr/technical-resources-team.webp",
+    "serviceMaterialHandlingAutomationNew": "/images/services/dsr/material-handling-automation.webp",
+    "serviceOilGasPipingPlant": "/images/services/dsr/oil-gas-piping-plant.webp",
+    "clientHblPowerSystems": "/images/clients/hbl-power-systems.png",
+    "clientRci": "/images/clients/rci.png",
+    "clientIsro": "/images/clients/isro.png",
+    "clientVoith": "/images/clients/voith.png",
+    "clientBhel": "/images/clients/bhel.png",
+    "clientShantiBoilers": "/images/clients/shanti-boilers.png",
+    "clientPatilGroup": "/images/clients/patil-group.png",
+    "clientBharatElectronics": "/images/clients/bharat-electronics.png",
+    "clientDrdo": "/images/clients/drdo.png",
+    "clientMeil": "/images/clients/meil.png"
   },
   "home": {
     "hero": {
       "eyebrow": "",
       "description": "",
       "slides": [
-		{ "title": "CAD & FEA Services", "imageKey": "homeHero2" },
-		{ "title": "Steel Industries", "imageKey": "homeHero4" },
-        { "title": "Petrochemical Engineering", "imageKey": "homeHero1" },
-         { "title": "Oil and Gas Projects", "imageKey": "homeHero3" }
+        {
+          "title": "CAD & FEA Services",
+          "imageKey": "homeHero2"
+        },
+        {
+          "title": "Steel Industries",
+          "imageKey": "homeHero4"
+        },
+        {
+          "title": "Petrochemical Engineering",
+          "imageKey": "homeHero1"
+        },
+        {
+          "title": "Oil and Gas Projects",
+          "imageKey": "homeHero3"
+        }
       ]
     },
     "aboutPreview": {
@@ -80,9 +210,18 @@
       "imageAlt": "Engineering team reviewing industrial design documents",
       "readMoreHref": "/about",
       "stats": [
-        { "value": "600+", "label": "project packages" },
-        { "value": "2200+", "label": "talent network" },
-        { "value": "2011", "label": "engineering roots" }
+        {
+          "value": "100+",
+          "label": "Projects completed"
+        },
+        {
+          "value": "30+",
+          "label": "Experienced engineers"
+        },
+        {
+          "value": "10+",
+          "label": "Years of industry expertise"
+        }
       ]
     },
     "visionMission": [
@@ -103,12 +242,30 @@
       "eyebrow": "Our Core Values",
       "title": "Principles that guide every package we deliver.",
       "items": [
-        { "title": "Integrity", "body": "Transparent decisions, disciplined delivery, and accountable communication." },
-        { "title": "Innovation", "body": "Modern tools and smarter workflows for complex engineering challenges." },
-        { "title": "Collaboration", "body": "Integrated teams aligned with clients, contractors, and site realities." },
-        { "title": "Excellence", "body": "Quality-focused outputs built for approval, procurement, and construction." },
-        { "title": "Sustainability", "body": "Engineering choices that support resilient and responsible assets." },
-        { "title": "Information Security", "body": "Controlled processes to protect client data and project knowledge." }
+        {
+          "title": "Integrity",
+          "body": "Transparent decisions, disciplined delivery, and accountable communication."
+        },
+        {
+          "title": "Innovation",
+          "body": "Modern tools and smarter workflows for complex engineering challenges."
+        },
+        {
+          "title": "Collaboration",
+          "body": "Integrated teams aligned with clients, contractors, and site realities."
+        },
+        {
+          "title": "Excellence",
+          "body": "Quality-focused outputs built for approval, procurement, and construction."
+        },
+        {
+          "title": "Sustainability",
+          "body": "Engineering choices that support resilient and responsible assets."
+        },
+        {
+          "title": "Information Security",
+          "body": "Controlled processes to protect client data and project knowledge."
+        }
       ]
     },
     "services": {
@@ -117,11 +274,36 @@
       "viewAllLabel": "View All Services",
       "viewAllHref": "/services",
       "items": [
-        { "title": "Plant Engineering Services", "body": "Complete support for industrial projects from concept planning to detailed design.", "imageKey": "servicePlantEngineering", "href": "/services/plant-engineering" },
-        { "title": "CAD Service", "body": "Specialized consulting and development advisory services.", "imageKey": "serviceCad", "href": "/services/cad" },
-        { "title": "BIM Service", "body": "Coordinated model-based workflows that reduce rework and improve project clarity.", "imageKey": "serviceBim", "href": "/services/bim" },
-        { "title": "Structural Steel Designing and Detailing", "body": "Reliable design and detailing packages for steel structures and process facilities.", "imageKey": "serviceStructuralSteel", "href": "/services/structural-steel-designing-detailing" },
-        { "title": "Project Management", "body": "Practical planning, coordination, and reporting to keep delivery moving.", "imageKey": "serviceProjectManagement", "href": "/services/project-management-consultant" }
+        {
+          "title": "New Product Development Services",
+          "body": "Product design and development support from concept models to complete engineering documentation.",
+          "imageKey": "serviceNewProduct",
+          "href": "/services/new-product-development-services"
+        },
+        {
+          "title": "Simulation Services",
+          "body": "Engineering simulation support to validate strength, performance, thermal behavior, and fluid flow.",
+          "imageKey": "serviceSimulation",
+          "href": "/services/simulation-services"
+        },
+        {
+          "title": "Plant Engineering Services",
+          "body": "Plant layout, process, piping, instrumentation, structural, and civil engineering support.",
+          "imageKey": "servicePlantEngineeringNew",
+          "href": "/services/plant-engineering-services"
+        },
+        {
+          "title": "Technical Resources",
+          "body": "Skilled and experienced technical resources to provide dependable engineering work support.",
+          "imageKey": "serviceTechnicalResourcesTeam",
+          "href": "/services/technical-resources"
+        },
+        {
+          "title": "BIM Services",
+          "body": "BIM modeling, scan-to-model conversion, and clash detection for coordinated digital delivery.",
+          "imageKey": "serviceBimNew",
+          "href": "/services/bim-services"
+        }
       ]
     },
     "industries": {
@@ -130,36 +312,113 @@
       "exploreLabel": "Explore All Industries",
       "exploreHref": "/industries",
       "items": [
-        { "title": "Infrastructure", "imageKey": "industryInfrastructure", "href": "/industries/infrastructure" },
-        { "title": "Solar / Renewable Energy", "imageKey": "industrySolarRenewable", "href": "/industries/solar-renewable-energy" }
+        {
+          "title": "Infrastructure",
+          "imageKey": "industryInfrastructure",
+          "href": "/industries/infrastructure"
+        },
+        {
+          "title": "Solar / Renewable Energy",
+          "imageKey": "industrySolarRenewable",
+          "href": "/industries/solar-renewable-energy"
+        }
       ]
     },
     "clients": {
       "eyebrow": "Our Clients",
       "title": "Trusted by organizations across energy, infrastructure, and manufacturing.",
-      "items": ["L&T", "Tata Projects", "Adani", "Reliance", "BHEL", "Technip", "Worley", "Jacobs", "HPCL", "IOCL", "BPCL", "ONGC"]
+      "items": [
+        {
+          "name": "HBL Power Systems Ltd.",
+          "imageKey": "clientHblPowerSystems"
+        },
+        {
+          "name": "RCI",
+          "imageKey": "clientRci"
+        },
+        {
+          "name": "ISRO",
+          "imageKey": "clientIsro"
+        },
+        {
+          "name": "Voith",
+          "imageKey": "clientVoith"
+        },
+        {
+          "name": "BHEL",
+          "imageKey": "clientBhel"
+        },
+        {
+          "name": "Shanti Boilers",
+          "imageKey": "clientShantiBoilers"
+        },
+        {
+          "name": "Patil Group",
+          "imageKey": "clientPatilGroup"
+        },
+        {
+          "name": "Bharat Electronics",
+          "imageKey": "clientBharatElectronics"
+        },
+        {
+          "name": "DRDO",
+          "imageKey": "clientDrdo"
+        },
+        {
+          "name": "MEIL",
+          "imageKey": "clientMeil"
+        }
+      ]
     },
     "divisions": {
       "eyebrow": "Our Divisions",
       "title": "Specialized teams working together for comprehensive solutions.",
       "items": [
-        { "title": "Secondment Services", "body": "Specialist engineering talent deployed to client teams for fast, focused project support.", "href": "/division" },
-        { "title": "Manpower Services", "body": "Role-fit staffing support for design offices, construction teams, and operations groups.", "href": "/division" },
-        { "title": "Professional Training", "body": "Practical technical training for graduates and working engineers entering industrial design.", "href": "/division" }
+        {
+          "title": "Secondment Services",
+          "body": "Specialist engineering talent deployed to client teams for fast, focused project support.",
+          "href": "/division"
+        },
+        {
+          "title": "Manpower Services",
+          "body": "Role-fit staffing support for design offices, construction teams, and operations groups.",
+          "href": "/division"
+        },
+        {
+          "title": "Professional Training",
+          "body": "Practical technical training for graduates and working engineers entering industrial design.",
+          "href": "/division"
+        }
       ]
     },
     "network": {
       "eyebrow": "Our Global Network",
       "title": "Engineering support close to clients and project sites.",
-      "locations": ["Mangalore", "New Delhi", "Mumbai", "Hyderabad", "Abu Dhabi", "Texas"]
+      "locations": [
+        "Mangalore",
+        "New Delhi",
+        "Mumbai",
+        "Hyderabad",
+        "Abu Dhabi",
+        "Texas"
+      ]
     },
     "insights": {
       "eyebrow": "News & Insights",
       "title": "Engineering updates, project thinking, and delivery notes.",
       "items": [
-        { "title": "Digital engineering for plant design", "body": "Practical observations from detailed engineering and industrial project execution." },
-        { "title": "How BIM improves field coordination", "body": "Practical observations from detailed engineering and industrial project execution." },
-        { "title": "Quality checks before IFC release", "body": "Practical observations from detailed engineering and industrial project execution." }
+        {
+          "title": "Digital engineering for plant design",
+          "body": "Practical observations from detailed engineering and industrial project execution."
+        },
+        {
+          "title": "How BIM improves field coordination",
+          "body": "Practical observations from detailed engineering and industrial project execution."
+        },
+        {
+          "title": "Quality checks before IFC release",
+          "body": "Practical observations from detailed engineering and industrial project execution."
+        }
       ]
     }
   },
@@ -179,19 +438,34 @@
         "title": "Secondment Services",
         "body": "Deploy experienced engineering professionals directly into client teams for fast, focused, project-aligned support.",
         "imageKey": "serviceProjectManagement",
-        "features": ["Client-site engineering support", "Flexible short-term and long-term deployment", "Discipline-specific technical resources", "Project reporting and coordination"]
+        "features": [
+          "Client-site engineering support",
+          "Flexible short-term and long-term deployment",
+          "Discipline-specific technical resources",
+          "Project reporting and coordination"
+        ]
       },
       {
         "title": "Manpower Services",
         "body": "Provide reliable engineering and technical manpower for design offices, construction teams, and industrial project execution.",
         "imageKey": "servicePlantEngineering",
-        "features": ["Screened technical talent", "Role-fit staffing support", "Engineering and drafting resources", "Scalable project teams"]
+        "features": [
+          "Screened technical talent",
+          "Role-fit staffing support",
+          "Engineering and drafting resources",
+          "Scalable project teams"
+        ]
       },
       {
         "title": "Professional Training",
         "body": "Prepare graduates and working engineers with practical industrial design, CAD, BIM, and project workflow training.",
         "imageKey": "serviceBim",
-        "features": ["CAD and BIM training", "Industrial design fundamentals", "Project documentation workflows", "Job-ready engineering skills"]
+        "features": [
+          "CAD and BIM training",
+          "Industrial design fundamentals",
+          "Project documentation workflows",
+          "Job-ready engineering skills"
+        ]
       }
     ],
     "collaboration": {
@@ -211,113 +485,441 @@
     "hero": {
       "eyebrow": "Our Services",
       "title": "Our Services",
-      "body": "We offer a comprehensive range of engineering and technical services designed to meet your specific needs and drive your business forward.",
+      "body": [
+        "Our engineering and technical services are designed to meet your specific needs while driving efficiency, innovation, and business growth.",
+        "We offer reliable engineering and technical expertise to help optimize your operations and achieve sustainable growth."
+      ],
+      "imageKey": "servicesHeroGears",
       "searchPlaceholder": "Search services or features..."
     },
     "items": [
       {
-        "slug": "bim",
-        "title": "BIM Services",
-        "body": "End-to-end BIM solutions that streamline collaboration, reduce errors, and accelerate project delivery.",
-        "imageKey": "serviceBim",
-        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785416246/bim-banner_uy6vjg.mp4",
-        "projectVideo": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785413563/bim-landmark-project_pbfd7p.mp4",
-        "features": ["3D Modelling", "Clash Detection", "Coordination", "Digital Delivery"],
+        "slug": "new-product-development-services",
+        "title": "New Product Development Services",
+        "body": "Product design and development support from concept models to complete engineering documentation.",
+        "imageKey": "serviceNewProduct",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785954996/NEW_PRODUCT_DEVELOPMENT_SERVICES_xcdrrx.mp4",
+        "projectVideo": "/videos/services/cad-project.mp4",
+        "features": [
+          "3D CAD Model",
+          "R&D",
+          "Reverse Engineering",
+          "2D Drafting",
+          "Drawing Conversion",
+          "Design Documentation"
+        ],
         "stats": [
-          { "value": "150+", "label": "Completed Projects" },
-          { "value": "60+", "label": "Happy Customers" },
-          { "value": "20+", "label": "Customer Recommendations" },
-          { "value": "75+", "label": "Team Members" }
+          {
+            "value": "100+",
+            "label": "Projects Supported"
+          },
+          {
+            "value": "30+",
+            "label": "Experienced Engineers"
+          },
+          {
+            "value": "10+",
+            "label": "Years of Expertise"
+          },
+          {
+            "value": "8+",
+            "label": "Service Verticals"
+          }
         ],
         "details": [
-          { "title": "BIM Modelling", "body": "Create detailed 3D models with precise geometry and data for better project visualization.", "imageKey": "serviceBim" },
-          { "title": "Scan to Drawing Conversion", "body": "Convert scan data into accurate drawings for seamless project integration.", "imageKey": "serviceCad" },
-          { "title": "Clash Detection", "body": "Identify design conflicts early and reduce coordination issues before execution.", "imageKey": "serviceStructuralSteel" },
-          { "title": "Digital Delivery", "body": "Support teams with model-based documentation, coordination, and handover workflows.", "imageKey": "servicePlantEngineering" }
+          {
+            "title": "3D CAD Model",
+            "body": "Create accurate 3D CAD models for product design, review, development, and manufacturing support.",
+            "imageKey": "detail3dCad"
+          },
+          {
+            "title": "R&D",
+            "body": "Support research and development with practical design studies, concept refinement, and engineering inputs.",
+            "imageKey": "detailResearchDevelopment"
+          },
+          {
+            "title": "Reverse Engineering",
+            "body": "Convert existing products, components, or scan data into usable design models and drawings.",
+            "imageKey": "detailReverseEngineering"
+          },
+          {
+            "title": "2D Drafting",
+            "body": "Prepare clear 2D drawings, drawing conversion packages, and design documentation for release.",
+            "imageKey": "detail2dDrafting"
+          }
         ]
       },
       {
-        "slug": "plant-engineering",
+        "slug": "simulation-services",
+        "title": "Simulation Services",
+        "body": "Engineering simulation support to validate strength, performance, thermal behavior, and fluid flow.",
+        "imageKey": "serviceSimulation",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785955000/SIMULATION_SERVICES_dyrfmy.mp4",
+        "projectVideo": "/videos/services/structural-steel-project.mp4",
+        "features": [
+          "Finite Element Analysis (FEA)",
+          "Dynamic Mechanical Analysis (DMA)",
+          "Thermal & Fluid Analysis"
+        ],
+        "stats": [
+          {
+            "value": "100+",
+            "label": "Projects Supported"
+          },
+          {
+            "value": "30+",
+            "label": "Experienced Engineers"
+          },
+          {
+            "value": "10+",
+            "label": "Years of Expertise"
+          },
+          {
+            "value": "8+",
+            "label": "Service Verticals"
+          }
+        ],
+        "details": [
+          {
+            "title": "Finite Element Analysis (FEA)",
+            "body": "Evaluate stresses, deformation, durability, and structural performance through finite element analysis.",
+            "imageKey": "detailFiniteElement"
+          },
+          {
+            "title": "Dynamic Mechanical Analysis (DMA)",
+            "body": "Assess dynamic response and mechanical behavior under operating or cyclic loading conditions.",
+            "imageKey": "detailDynamicAnalysis"
+          },
+          {
+            "title": "Thermal Analysis",
+            "body": "Study thermal performance, heat transfer, and temperature-related design considerations.",
+            "imageKey": "detailThermalAnalysis"
+          },
+          {
+            "title": "Fluid Analysis",
+            "body": "Support fluid behavior studies for flow paths, pressure drop, and performance improvement.",
+            "imageKey": "detailFluidAnalysis"
+          }
+        ]
+      },
+      {
+        "slug": "plant-engineering-services",
         "title": "Plant Engineering Services",
-        "body": "Comprehensive plant engineering solutions for efficient and optimized industrial operations.",
-        "imageKey": "servicePlantEngineering",
+        "body": "Plant layout, process, piping, instrumentation, structural, and civil engineering support.",
+        "imageKey": "servicePlantEngineeringNew",
         "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785413588/plant-engineering-banner_fsxq9r.mp4",
         "projectVideo": "/videos/services/plant-engineering-project.mp4",
-        "features": ["Process Engineering", "Piping & Pipeline Engineering", "Structural Engineering", "Instrumentation Engineering", "Electrical Engineering", "Civil & Structural Engineering"],
+        "features": [
+          "Plant Layout Design",
+          "Piping and Instrumentation Design",
+          "Process Engineering",
+          "Structural Engineering and Civil Support"
+        ],
         "stats": [
-          { "value": "120+", "label": "Plant Deliverables" },
-          { "value": "40+", "label": "Industrial Clients" },
-          { "value": "18+", "label": "Engineering Disciplines" },
-          { "value": "80+", "label": "Specialists" }
+          {
+            "value": "100+",
+            "label": "Projects Supported"
+          },
+          {
+            "value": "30+",
+            "label": "Experienced Engineers"
+          },
+          {
+            "value": "10+",
+            "label": "Years of Expertise"
+          },
+          {
+            "value": "8+",
+            "label": "Service Verticals"
+          }
         ],
         "details": [
-          { "title": "Process Engineering", "body": "Prepare practical process documentation for reliable plant design and operation.", "imageKey": "servicePlantEngineering" },
-          { "title": "Piping & Pipeline Engineering", "body": "Develop routing, layouts, supports, and drawings for efficient piping systems.", "imageKey": "serviceStructuralSteel" },
-          { "title": "Instrumentation Engineering", "body": "Support control, instrumentation, and documentation requirements across projects.", "imageKey": "serviceCad" },
-          { "title": "Civil & Structural Engineering", "body": "Coordinate civil and structural packages for safe industrial execution.", "imageKey": "serviceProjectManagement" }
+          {
+            "title": "Plant Layout Design",
+            "body": "Develop practical plant layouts that support equipment access, workflow, safety, and operations.",
+            "imageKey": "detailPlantLayout"
+          },
+          {
+            "title": "Piping and Instrumentation Design",
+            "body": "Prepare piping, instrumentation, routing, and interface documentation for plant systems.",
+            "imageKey": "serviceOilGasPipingPlant"
+          },
+          {
+            "title": "Process Engineering",
+            "body": "Support process design documentation, calculations, and engineering deliverables.",
+            "imageKey": "detailProcessEngineering"
+          },
+          {
+            "title": "Structural and Civil Support",
+            "body": "Coordinate structural and civil engineering requirements for safe plant execution.",
+            "imageKey": "detailStructuralEngineering"
+          }
         ]
       },
       {
-        "slug": "structural-steel-designing-detailing",
-        "title": "Structural Steel Designing and Detailing",
-        "body": "Expert designing and detailing for reliable structural steel solutions.",
-        "imageKey": "serviceStructuralSteel",
-        "video": "/videos/services/structural-steel-banner.mp4",
-        "projectVideo": "/videos/services/structural-steel-project.mp4",
-        "features": ["Steel Modelling", "Connection Details", "Fabrication Drawings", "Checking Support"],
-        "stats": [
-          { "value": "90+", "label": "Steel Packages" },
-          { "value": "35+", "label": "Fabrication Supports" },
-          { "value": "25+", "label": "Review Cycles" },
-          { "value": "50+", "label": "Detailing Experts" }
-        ],
-        "details": [
-          { "title": "Steel Modelling", "body": "Build coordinated steel models for fabrication, erection, and design reviews.", "imageKey": "serviceStructuralSteel" },
-          { "title": "Connection Details", "body": "Prepare connection details aligned with project standards and checking workflows.", "imageKey": "serviceCad" },
-          { "title": "Fabrication Drawings", "body": "Deliver clear fabrication drawings to support shop-floor execution.", "imageKey": "servicePlantEngineering" },
-          { "title": "Checking Support", "body": "Review models and drawings for consistency, completeness, and constructability.", "imageKey": "serviceProjectManagement" }
-        ]
-      },
-      {
-        "slug": "cad",
-        "title": "New Product Development Services",
-        "body": "Specialized consulting and development advisory services.",
-        "imageKey": "serviceCad",
-        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785413570/cad-banner_pewse4.mp4",
-        "projectVideo": "/videos/services/cad-project.mp4",
-        "features": ["2D Drafting", "3D CAD", "Drawing Conversion", "Design Documentation"],
-        "stats": [
-          { "value": "200+", "label": "Drawings Delivered" },
-          { "value": "45+", "label": "Active Standards" },
-          { "value": "30+", "label": "CAD Specialists" },
-          { "value": "70+", "label": "Conversion Packages" }
-        ],
-        "details": [
-          { "title": "2D Drafting", "body": "Produce clean technical drawings for design, review, and construction release.", "imageKey": "serviceCad" },
-          { "title": "3D CAD", "body": "Create accurate 3D geometry for coordination and design visualization.", "imageKey": "serviceBim" },
-          { "title": "Drawing Conversion", "body": "Convert legacy drawings into usable CAD documentation.", "imageKey": "servicePlantEngineering" },
-          { "title": "Design Documentation", "body": "Maintain organized drawing packages for dependable project handover.", "imageKey": "serviceProjectManagement" }
-        ]
-      },
-      {
-        "slug": "project-management-consultant",
-        "title": "Project Management Consultant Services",
-        "body": "End-to-end project oversight ensuring timely and efficient delivery.",
-        "imageKey": "serviceProjectManagement",
+        "slug": "technical-resources",
+        "title": "Technical Resources",
+        "body": "Skilled and experienced technical resources to provide dependable engineering work support.",
+        "imageKey": "serviceTechnicalResourcesTeam",
         "video": "/videos/services/project-management-banner.mp4",
         "projectVideo": "/videos/services/project-management-project.mp4",
-        "features": ["Planning", "Monitoring", "Coordination", "Reporting"],
+        "features": [
+          "Skilled and Experienced Persons",
+          "Work Support Assistance",
+          "Experienced Team"
+        ],
         "stats": [
-          { "value": "85+", "label": "Project Plans" },
-          { "value": "40+", "label": "Client Reviews" },
-          { "value": "55+", "label": "Coordination Cycles" },
-          { "value": "25+", "label": "Reporting Systems" }
+          {
+            "value": "100+",
+            "label": "Projects Supported"
+          },
+          {
+            "value": "30+",
+            "label": "Experienced Engineers"
+          },
+          {
+            "value": "10+",
+            "label": "Years of Expertise"
+          },
+          {
+            "value": "8+",
+            "label": "Service Verticals"
+          }
         ],
         "details": [
-          { "title": "Planning", "body": "Build practical schedules, deliverable plans, and project tracking systems.", "imageKey": "serviceProjectManagement" },
-          { "title": "Monitoring", "body": "Track progress, risks, and actions to keep project delivery visible.", "imageKey": "servicePlantEngineering" },
-          { "title": "Coordination", "body": "Coordinate engineering stakeholders and document dependencies.", "imageKey": "serviceBim" },
-          { "title": "Reporting", "body": "Prepare crisp reporting packs for decisions, reviews, and client updates.", "imageKey": "serviceCad" }
+          {
+            "title": "Skilled and Experienced Persons",
+            "body": "Provide qualified technical professionals aligned with engineering project requirements.",
+            "imageKey": "serviceTechnicalResourcesTeam"
+          },
+          {
+            "title": "Work Support Assistance",
+            "body": "Assist client teams with drafting, modeling, documentation, checking, and coordination activities.",
+            "imageKey": "serviceTechnicalResourcesTeam"
+          },
+          {
+            "title": "Experienced Team",
+            "body": "Deploy experienced teams capable of supporting delivery schedules and quality expectations.",
+            "imageKey": "serviceTechnicalResourcesTeam"
+          },
+          {
+            "title": "Flexible Support",
+            "body": "Scale engineering assistance based on project workload, discipline needs, and timelines.",
+            "imageKey": "detailSkilledResources"
+          }
+        ]
+      },
+      {
+        "slug": "bim-services",
+        "title": "BIM Services",
+        "body": "BIM modeling, scan-to-model conversion, and clash detection for coordinated digital delivery.",
+        "imageKey": "serviceBimNew",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785416246/bim-banner_uy6vjg.mp4",
+        "projectVideo": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785413563/bim-landmark-project_pbfd7p.mp4",
+        "features": [
+          "BIM Modeling",
+          "3D Scan to 3D Model",
+          "Clash Detection"
+        ],
+        "stats": [
+          {
+            "value": "100+",
+            "label": "Projects Supported"
+          },
+          {
+            "value": "30+",
+            "label": "Experienced Engineers"
+          },
+          {
+            "value": "10+",
+            "label": "Years of Expertise"
+          },
+          {
+            "value": "8+",
+            "label": "Service Verticals"
+          }
+        ],
+        "details": [
+          {
+            "title": "BIM Modeling",
+            "body": "Create coordinated BIM models for design review, construction planning, and project collaboration.",
+            "imageKey": "detailBimModeling"
+          },
+          {
+            "title": "3D Scan to 3D Model",
+            "body": "Convert scan data into usable 3D models for existing facilities and retrofit projects.",
+            "imageKey": "detailScanToModel"
+          },
+          {
+            "title": "Clash Detection",
+            "body": "Identify and resolve interdisciplinary clashes before construction or fabrication begins.",
+            "imageKey": "detailClashDetection"
+          },
+          {
+            "title": "Digital Coordination",
+            "body": "Support model-based coordination workflows for clear project communication.",
+            "imageKey": "detailBimModeling"
+          }
+        ]
+      },
+      {
+        "slug": "pressure-vessels-storage-tanks",
+        "title": "Pressure Vessels and Storage Tanks",
+        "body": "Design and documentation support for boilers, chimneys, storage tanks, heat exchangers, and chillers.",
+        "imageKey": "servicePressureVessels",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785413588/plant-engineering-banner_fsxq9r.mp4",
+        "projectVideo": "/videos/services/plant-engineering-project.mp4",
+        "features": [
+          "Boilers & Chimneys",
+          "Storage Tanks",
+          "Heat Exchangers",
+          "Chillers"
+        ],
+        "stats": [
+          {
+            "value": "100+",
+            "label": "Projects Supported"
+          },
+          {
+            "value": "30+",
+            "label": "Experienced Engineers"
+          },
+          {
+            "value": "10+",
+            "label": "Years of Expertise"
+          },
+          {
+            "value": "8+",
+            "label": "Service Verticals"
+          }
+        ],
+        "details": [
+          {
+            "title": "Boilers & Chimneys",
+            "body": "Support engineering documentation and design coordination for boiler and chimney systems.",
+            "imageKey": "detailBoilersChimneys"
+          },
+          {
+            "title": "Storage Tanks",
+            "body": "Prepare design and detailing support for industrial storage tank requirements.",
+            "imageKey": "detailStorageTank3d"
+          },
+          {
+            "title": "Heat Exchangers",
+            "body": "Support mechanical design documentation for heat exchanger equipment and interfaces.",
+            "imageKey": "detailHeatExchangers"
+          },
+          {
+            "title": "Chillers",
+            "body": "Provide engineering support for chiller equipment layout, documentation, and integration.",
+            "imageKey": "detailChillers"
+          }
+        ]
+      },
+      {
+        "slug": "oil-gas-industry-services",
+        "title": "Oil and Gas Industry Services",
+        "body": "Engineering support for oil refineries, pipelines, storage tanks, and connected oil and gas assets.",
+        "imageKey": "serviceOilGasPipingPlant",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785954994/OIL_AND_GAS_INDUSTRY_SERVICES_ykd5qf.mp4",
+        "projectVideo": "/videos/services/plant-engineering-project.mp4",
+        "features": [
+          "Oil Refineries",
+          "Pipeline",
+          "Storage Tanks"
+        ],
+        "stats": [
+          {
+            "value": "100+",
+            "label": "Projects Supported"
+          },
+          {
+            "value": "30+",
+            "label": "Experienced Engineers"
+          },
+          {
+            "value": "10+",
+            "label": "Years of Expertise"
+          },
+          {
+            "value": "8+",
+            "label": "Service Verticals"
+          }
+        ],
+        "details": [
+          {
+            "title": "Oil Refineries",
+            "body": "Support refinery projects with plant engineering, documentation, and design coordination.",
+            "imageKey": "detailOilRefineries"
+          },
+          {
+            "title": "Pipeline",
+            "body": "Provide pipeline routing, drafting, documentation, and engineering support.",
+            "imageKey": "serviceOilGasPipingPlant"
+          },
+          {
+            "title": "Storage Tanks",
+            "body": "Deliver engineering support for tank farms, storage facilities, and associated systems.",
+            "imageKey": "detailStorageTank3d"
+          },
+          {
+            "title": "Oil and Gas Assets",
+            "body": "Coordinate multidisciplinary engineering deliverables for oil and gas industry projects.",
+            "imageKey": "serviceOilGasPipingPlant"
+          }
+        ]
+      },
+      {
+        "slug": "material-handling-automation-services",
+        "title": "Material Handling & Automation Services",
+        "body": "Design support for conveyors, material movement, packaging systems, and special purpose machines.",
+        "imageKey": "serviceMaterialHandlingAutomationNew",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785954996/Automation_and_material_handling_tzushc.mp4",
+        "projectVideo": "/videos/services/cad-project.mp4",
+        "features": [
+          "Conveyor Design",
+          "Material Moving and Packaging Design",
+          "Special Purpose Machine Design"
+        ],
+        "stats": [
+          {
+            "value": "100+",
+            "label": "Projects Supported"
+          },
+          {
+            "value": "30+",
+            "label": "Experienced Engineers"
+          },
+          {
+            "value": "10+",
+            "label": "Years of Expertise"
+          },
+          {
+            "value": "8+",
+            "label": "Service Verticals"
+          }
+        ],
+        "details": [
+          {
+            "title": "Conveyor Design",
+            "body": "Design conveyor systems and related mechanical layouts for material handling operations.",
+            "imageKey": "serviceMaterialHandlingAutomationNew"
+          },
+          {
+            "title": "Material Moving Design",
+            "body": "Support movement, transfer, and handling systems for industrial workflows.",
+            "imageKey": "serviceMaterialHandlingAutomationNew"
+          },
+          {
+            "title": "Packaging Design",
+            "body": "Develop packaging equipment concepts and documentation for production requirements.",
+            "imageKey": "serviceMaterialHandlingAutomationNew"
+          },
+          {
+            "title": "Special Purpose Machines",
+            "body": "Support design and documentation for customized automation and production machines.",
+            "imageKey": "serviceMaterialHandlingAutomationNew"
+          }
         ]
       }
     ],
@@ -372,7 +974,6 @@
       "body": "Powering progress across core engineering sectors with innovative solutions and decades of expertise."
     },
     "expertise": {
-      "eyebrow": "Our Industry Expertise",
       "title": "Our Industry Expertise",
       "body": "From oil & gas to infrastructure and renewable energy, we deliver specialized engineering solutions tailored to each industry's unique challenges and requirements.",
       "items": [
@@ -381,42 +982,72 @@
           "title": "Infrastructure",
           "body": "Engineering support for bridges, transport systems, utilities, and civil infrastructure projects.",
           "imageKey": "industryInfrastructure",
-          "details": ["Bridge and transport infrastructure documentation", "Civil layout and utility coordination", "BIM and CAD support for construction-ready deliverables", "Project documentation and technical review support"]
+          "details": [
+            "Bridge and transport infrastructure documentation",
+            "Civil layout and utility coordination",
+            "BIM and CAD support for construction-ready deliverables",
+            "Project documentation and technical review support"
+          ]
         },
         {
           "slug": "solar-renewable-energy",
           "title": "Solar / Renewable Energy",
           "body": "Design and documentation support for renewable energy facilities, storage systems, and sustainable assets.",
           "imageKey": "industrySolarRenewable",
-          "details": ["Solar plant layout and documentation support", "Renewable asset design coordination", "Storage and utility interface support", "Sustainable project drafting and model workflows"]
+          "details": [
+            "Solar plant layout and documentation support",
+            "Renewable asset design coordination",
+            "Storage and utility interface support",
+            "Sustainable project drafting and model workflows"
+          ]
         },
         {
           "slug": "oil-gas-refineries",
           "title": "Oil & Gas Refineries",
           "body": "Multidiscipline engineering support for process facilities, refinery upgrades, and industrial assets.",
           "imageKey": "industryRefineries",
-          "details": ["Process and piping documentation support", "Refinery upgrade drawing packages", "Multidiscipline CAD and BIM coordination", "Construction and review deliverable support"]
+          "details": [
+            "Process and piping documentation support",
+            "Refinery upgrade drawing packages",
+            "Multidiscipline CAD and BIM coordination",
+            "Construction and review deliverable support"
+          ]
         },
         {
           "slug": "petrochemicals",
           "title": "Petrochemicals",
           "body": "Practical plant engineering, CAD, BIM, and documentation support for petrochemical projects.",
           "imageKey": "industryPetrochemicals",
-          "details": ["Plant engineering and model coordination", "Piping, structural, and equipment documentation", "CAD conversion and detailed drawing support", "Project execution documentation packages"]
+          "details": [
+            "Plant engineering and model coordination",
+            "Piping, structural, and equipment documentation",
+            "CAD conversion and detailed drawing support",
+            "Project execution documentation packages"
+          ]
         },
         {
           "slug": "storage-terminals",
           "title": "Storage Terminals",
           "body": "Engineering support for storage, terminal, handling, and connected industrial facilities.",
           "imageKey": "industryTerminals",
-          "details": ["Tank farm and terminal layout support", "Piping and utility drawing coordination", "Documentation for handling and transfer systems", "Engineering support for connected industrial assets"]
+          "details": [
+            "Tank farm and terminal layout support",
+            "Piping and utility drawing coordination",
+            "Documentation for handling and transfer systems",
+            "Engineering support for connected industrial assets"
+          ]
         },
         {
           "slug": "steel-industries",
           "title": "Steel Industries",
           "body": "Design assistance and project support for steel plants, industrial units, and heavy manufacturing.",
           "imageKey": "homeHero4",
-          "details": ["Steel plant documentation and layout support", "Structural detailing and checking assistance", "Industrial project CAD and BIM coordination", "Manufacturing and heavy-industry engineering support"]
+          "details": [
+            "Steel plant documentation and layout support",
+            "Structural detailing and checking assistance",
+            "Industrial project CAD and BIM coordination",
+            "Manufacturing and heavy-industry engineering support"
+          ]
         }
       ]
     },
@@ -430,8 +1061,12 @@
   "aboutPage": {
     "hero": {
       "eyebrow": "",
-      "title": "About Our Company",
-      "body": "We are a team of dedicated engineering professionals committed to delivering innovative, practical, and high-quality solutions that transform industries and improve project outcomes.",
+      "title": "Who We Are",
+      "body": [
+        "DSR Design and Engineering Solutions is a multidisciplinary engineering firm dedicated to delivering innovative, efficient, and reliable design solutions for a rapidly evolving industrial world. Established in 2016, DSR was founded with a single mission to be the best CAD Services provider globally and value add to the End User.",
+        "What began as a small design office with a handful of engineers has evolved into a trusted technology and engineering partner serving clients across automotive, aerospace, heavy machinery, manufacturing, and industrial automation sectors.",
+        "At DSR, we believe that great engineering is more than technical accuracy - it's about creating solutions that inspire progress, sustainability, and performance."
+      ],
       "imageKey": "aboutHero"
     },
     "details": {
@@ -453,29 +1088,63 @@
       "body": "From our humble beginnings to industry leadership, explore the key milestones that have shaped our company.",
       "items": [
         {
-          "year": "2011",
-          "title": "Company Founded",
-          "body": "Our journey began with a focused team of dedicated engineers."
+          "year": "2016",
+          "title": "The Beginning",
+          "body": "DSR was founded to deliver world-class mechanical design services, beginning with CAD design and drafting built on accuracy and timely delivery."
         },
         {
-          "year": "2013",
-          "title": "Project Expansion",
-          "body": "Expanded our engineering support for industrial design and documentation projects."
+          "year": "2017",
+          "title": "First Major Breakthrough",
+          "body": "Secured our first international oil and gas project from Azerbaijan, delivering 3D modeling and API-standard design calculation support."
         },
         {
-          "year": "2015",
-          "title": "Digital Delivery",
-          "body": "Strengthened CAD and BIM workflows to improve coordination and project delivery."
+          "year": "2019",
+          "title": "Expanding Horizons",
+          "body": "Expanded into product design, FEA, reverse engineering, and prototype development, while winning a detailed engineering contract from BHEL."
         },
         {
           "year": "2020",
-          "title": "Sustainability Initiative",
-          "body": "Committed to practical, compliant, and sustainable engineering practices."
+          "title": "Adapting to Global Change",
+          "body": "Adopted digital collaboration and cloud-based design systems to deliver remote engineering support and complete projects on schedule."
         },
         {
-          "year": "2023",
-          "title": "Industry Recognition",
-          "body": "Built stronger client relationships through reliable engineering and support services."
+          "year": "2022",
+          "title": "Infrastructure and Innovation",
+          "body": "Inaugurated a modern design and development center with CAD, CAM, CAE, prototyping, and simulation capabilities."
+        },
+        {
+          "year": "2024",
+          "title": "Engineering for the Future",
+          "body": "Advanced sustainable design, automation, and smart manufacturing solutions while expanding across the U.S., Europe, Middle East, and Southeast Asia."
+        }
+      ]
+    },
+    "leadership": {
+      "eyebrow": "Leadership Team",
+      "titlePrefix": "Guided by Proven",
+      "titleHighlight": "Industry Leaders",
+      "body": "DSR's leadership blends global education, technical expertise, and hands-on industry experience. Their collective vision drives the company to deliver world-class engineering services trusted by enterprises globally.",
+      "members": [
+        {
+          "nameHighlight": "Vivek",
+          "nameRest": "Anand",
+          "description": "Product Manager, B.E. Mechanical Engg, MBA (IIM). 20+ years of experience in manufacturing, marketing, and operations.",
+          "image": "",
+          "placeholder": "Image will be added"
+        },
+        {
+          "nameHighlight": "Devansh",
+          "nameRest": "Trivedi",
+          "description": "Chief Executive Officer, B.E. Chemical Engg. 20+ years of experience in manufacturing and project management.",
+          "image": "",
+          "placeholder": "Image will be added"
+        },
+        {
+          "nameHighlight": "Surendra",
+          "nameRest": "Rapaka",
+          "description": "CTO, B.E. & M.E. Mechanical Engg. 9+ years in industrial operations and mechanical design.",
+          "image": "",
+          "placeholder": "Image will be added"
         }
       ]
     },
@@ -491,10 +1160,22 @@
       "eyebrow": "What We Do",
       "title": "Full information, not just a homepage preview.",
       "items": [
-        { "title": "Detailed Engineering", "body": "Practical design documentation for procurement, fabrication, approval, and construction." },
-        { "title": "Digital Delivery", "body": "CAD, BIM, and coordinated model-based workflows that improve clarity and reduce rework." },
-        { "title": "Project Support", "body": "Flexible engineering teams aligned with client schedules, standards, and site realities." },
-        { "title": "Quality Culture", "body": "Review-led delivery with attention to compliance, traceability, and disciplined handover." }
+        {
+          "title": "Detailed Engineering",
+          "body": "Practical design documentation for procurement, fabrication, approval, and construction."
+        },
+        {
+          "title": "Digital Delivery",
+          "body": "CAD, BIM, and coordinated model-based workflows that improve clarity and reduce rework."
+        },
+        {
+          "title": "Project Support",
+          "body": "Flexible engineering teams aligned with client schedules, standards, and site realities."
+        },
+        {
+          "title": "Quality Culture",
+          "body": "Review-led delivery with attention to compliance, traceability, and disciplined handover."
+        }
       ]
     },
     "visionMission": [
@@ -520,22 +1201,75 @@
       "body": "Share your requirement and our team will get back with the right engineering support."
     },
     "details": [
-      { "label": "Phone", "value": "+91 00000 00000", "href": "tel:+910000000000" },
-      { "label": "Email", "value": "info@dsrdesignsolutions.com", "href": "mailto:info@dsrdesignsolutions.com" },
-      { "label": "Location", "value": "Mangalore, Karnataka, India", "href": "#" }
+      {
+        "label": "Phone",
+        "value": "+91 92463 94003",
+        "href": "tel:+919246394003"
+      },
+      {
+        "label": "Email",
+        "value": "info@dsrdesignsolutions.com",
+        "href": "mailto:info@dsrdesignsolutions.com"
+      },
+      {
+        "label": "Location",
+        "value": "Mangalore, Karnataka, India",
+        "href": "#"
+      }
     ],
     "cards": [
-      { "title": "Call Us", "icon": "phone", "lines": ["+91 00000 00000", "+91 00000 00000"], "href": "tel:+910000000000" },
-      { "title": "Email Us", "icon": "mail", "lines": ["info@dsrdesignsolutions.com"], "href": "mailto:info@dsrdesignsolutions.com" },
-      { "title": "WhatsApp", "icon": "whatsapp", "lines": ["+91 00000 00000"], "href": "https://wa.me/910000000000" }
+      {
+        "title": "Call Us",
+        "icon": "phone",
+        "lines": [
+          "+91 92463 94003"
+        ],
+        "href": "tel:+919246394003"
+      },
+      {
+        "title": "Email Us",
+        "icon": "mail",
+        "lines": [
+          "info@dsrdesignsolutions.com"
+        ],
+        "href": "mailto:info@dsrdesignsolutions.com"
+      },
+      {
+        "title": "WhatsApp",
+        "icon": "whatsapp",
+        "lines": [
+          "+91 92463 94003"
+        ],
+        "href": "https://wa.me/919246394003"
+      }
     ],
     "form": {
       "title": "Send Us a Message",
       "fields": [
-        { "name": "name", "label": "Name", "type": "text", "placeholder": "Your name" },
-        { "name": "email", "label": "Email", "type": "email", "placeholder": "Your email" },
-        { "name": "phone", "label": "Phone", "type": "tel", "placeholder": "Your phone number" },
-        { "name": "service", "label": "Service Required", "type": "text", "placeholder": "BIM, CAD, Plant Engineering..." }
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Your name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "placeholder": "Your email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "placeholder": "Your phone number"
+        },
+        {
+          "name": "service",
+          "label": "Service Required",
+          "type": "text",
+          "placeholder": "BIM, CAD, Plant Engineering..."
+        }
       ],
       "messageLabel": "Message",
       "messagePlaceholder": "Tell us about your requirement",
@@ -545,8 +1279,18 @@
       "eyebrow": "",
       "title": "Our Locations",
       "body": "With offices around the world, we're well-positioned to serve clients globally. Select a location to view details.",
-      "tabs": ["Global Headquarters", "Global Engineering Office"],
-      "items": ["Mangalore", "New Delhi", "Mumbai", "Hyderabad", "Abu Dhabi", "Texas"],
+      "tabs": [
+        "Global Headquarters",
+        "Global Engineering Office"
+      ],
+      "items": [
+        "Mangalore",
+        "New Delhi",
+        "Mumbai",
+        "Hyderabad",
+        "Abu Dhabi",
+        "Texas"
+      ],
       "mapTitle": "Our Location Map",
       "mapEmbedUrl": "https://www.google.com/maps?q=Mangalore%2C%20Karnataka%2C%20India&output=embed",
       "cardTag": "Headquarters",
@@ -557,9 +1301,18 @@
       "eyebrow": "Help",
       "title": "Frequently Asked Questions",
       "items": [
-        { "question": "What services can I enquire about?", "answer": "You can contact us for detailed engineering, BIM, CAD, project management, manpower, and industry-specific support." },
-        { "question": "How soon will the team respond?", "answer": "We aim to review enquiries promptly and respond with the right next step for your requirement." },
-        { "question": "Can I request support for a specific industry?", "answer": "Yes. Share your industry, scope, and deliverables so we can align the right technical team." }
+        {
+          "question": "What services can I enquire about?",
+          "answer": "You can contact us for detailed engineering, BIM, CAD, project management, manpower, and industry-specific support."
+        },
+        {
+          "question": "How soon will the team respond?",
+          "answer": "We aim to review enquiries promptly and respond with the right next step for your requirement."
+        },
+        {
+          "question": "Can I request support for a specific industry?",
+          "answer": "Yes. Share your industry, scope, and deliverables so we can align the right technical team."
+        }
       ]
     },
     "cta": {

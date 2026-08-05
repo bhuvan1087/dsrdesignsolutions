@@ -62,20 +62,9 @@ export default function ServiceDetailPage({ params }: ServicePageProps) {
               <div>
                 <h3>{detail.title}</h3>
                 <p>{detail.body}</p>
-                <a href="/contact">View More</a>
               </div>
             </article>
           ))}
-        </div>
-      </section>
-
-      <section className="service-project-video">
-        <video controls poster={poster}>
-          <source src={service.projectVideo} type="video/mp4" />
-        </video>
-        <div>
-          <h2>Our Landmark Projects</h2>
-          <a href="/contact">View All Projects</a>
         </div>
       </section>
 

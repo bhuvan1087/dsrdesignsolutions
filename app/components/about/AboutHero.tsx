@@ -2,6 +2,7 @@ import content from "@/content/site.json";
 
 export function AboutHero() {
   const section = content.aboutPage.hero;
+  const bodyParagraphs = Array.isArray(section.body) ? section.body : [section.body];
 
   return (
     <section
@@ -13,7 +14,9 @@ export function AboutHero() {
       <div>
         <p className="eyebrow">{section.eyebrow}</p>
         <h1>{section.title}</h1>
-        <p>{section.body}</p>
+        {bodyParagraphs.map((paragraph) => (
+          <p key={paragraph}>{paragraph}</p>
+        ))}
       </div>
     </section>
   );
