@@ -2,6 +2,7 @@ import content from "@/content/site.json";
 import { notFound } from "next/navigation";
 import { SiteFooter } from "../../components/layout/SiteFooter";
 import { SiteHeader } from "../../components/layout/SiteHeader";
+import { LimitedVideo } from "../../components/media/LimitedVideo";
 
 type ServicePageProps = {
   params: {
@@ -28,9 +29,7 @@ export default function ServiceDetailPage({ params }: ServicePageProps) {
     <main>
       <SiteHeader activeLabel="Services" />
       <section className="service-detail-hero">
-        <video autoPlay controls muted loop playsInline poster={poster}>
-          <source src={service.video} type="video/mp4" />
-        </video>
+        <LimitedVideo src={service.video} poster={poster} maxSeconds={25} />
         <div className="service-detail-hero-overlay" />
         <div className="service-detail-hero-content">
           <a href="/services">Back to Services</a>

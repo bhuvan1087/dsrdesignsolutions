@@ -12,7 +12,7 @@ export default function ServicesPage() {
       <section
         className="services-page-hero"
         style={{
-          backgroundImage: `linear-gradient(90deg, rgba(31, 41, 58, 0.98), rgba(57, 65, 81, 0.94)), url("${content.images[page.hero.imageKey as keyof typeof content.images]}")`,
+          backgroundImage: `linear-gradient(90deg, rgba(42, 49, 110, 0.66), rgba(42, 49, 110, 0.42)), url("${content.images[page.hero.imageKey as keyof typeof content.images]}")`,
         }}
       >
         <div>

@@ -8,7 +8,12 @@ export default function IndustriesPage() {
   return (
     <main>
       <SiteHeader activeLabel="Industries" />
-      <section className="industries-page-hero">
+      <section
+        className="industries-page-hero"
+        style={{
+          backgroundImage: `linear-gradient(90deg, rgba(42, 49, 110, 0.66), rgba(42, 49, 110, 0.42)), url("${content.images[page.hero.imageKey as keyof typeof content.images]}")`,
+        }}
+      >
         {page.hero.eyebrow ? <p className="eyebrow">{page.hero.eyebrow}</p> : null}
         <h1>{page.hero.title}</h1>
         <p>{page.hero.body}</p>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 760" role="img" aria-labelledby="title desc">
+  <title id="title">Vivek Anand placeholder portrait</title>
+  <desc id="desc">Placeholder image that can be replaced with the leader photo.</desc>
+  <rect width="640" height="760" fill="#f4f7fb"/>
+  <circle cx="320" cy="245" r="108" fill="#dbe7ff"/>
+  <path d="M120 680c18-132 98-216 200-216s182 84 200 216" fill="#dbe7ff"/>
+  <circle cx="320" cy="245" r="74" fill="#ffffff"/>
+  <path d="M206 596h228" stroke="#2a316e" stroke-width="18" stroke-linecap="round"/>
+  <text x="320" y="640" fill="#2a316e" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" text-anchor="middle">Vivek Anand</text>
+  <text x="320" y="692" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="600" text-anchor="middle">Photo will be added</text>
+</svg>
