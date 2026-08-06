@@ -13,7 +13,7 @@ import { SiteHeader } from "./components/layout/SiteHeader";
 
 export default function Home() {
   return (
-    <main>
+    <main className="home-page">
       <SiteHeader activeLabel="Home" />
       <HomeHero />
       <HomeAboutPreview />
