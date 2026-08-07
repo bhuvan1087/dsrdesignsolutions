@@ -17,7 +17,7 @@ export default function ServicesPage() {
       >
         <div>
           <h1>
-            Our <span>Services</span>
+            Our Services
           </h1>
           {heroBody.map((paragraph) => (
             <p key={paragraph}>{paragraph}</p>

@@ -120,7 +120,7 @@
     "serviceProjectManagement": "/images/services/project-management.jpg",
     "industryRefineries": "/images/industries/refineries.jpg",
     "industryPetrochemicals": "/images/industries/petrochemicals.jpg",
-    "industryTerminals": "/images/industries/storage-terminals.jpg",
+    "industryAutomobile": "/images/industries/automobile-Heavy-machinaries.png",
     "industryInfrastructure": "/images/industries/infrastructure.png",
     "industrySolarRenewable": "/images/industries/solar-renewable-energy.png",
     "aboutHero": "/images/about/about-hero.jpg",
@@ -129,21 +129,23 @@
     "serviceNewProduct": "/images/services/dsr/new-product-development.jfif",
     "serviceSimulation": "/images/services/dsr/simulation-services.jpg",
     "servicePlantEngineeringNew": "/images/services/dsr/plant-layout.webp",
-    "serviceTechnicalResources": "/images/services/dsr/technical-resource.jfif",
-    "serviceBimNew": "/images/services/dsr/bim-modeling.jfif",
-    "servicePressureVessels": "/images/services/dsr/pressure-vessels-storage-tanks.jfif",
+    "serviceTechnicalResources": "/images/services/dsr/technical-resources-team.jpg",
+    "serviceBimNew": "/images/services/dsr/bim-modelling1.jfif",
+    "servicePressureVessels": "/images/services/dsr/pressure-vessels-storage-tanks.png",
     "serviceOilGasNew": "/images/services/dsr/oil-refineries.jfif",
     "serviceMaterialHandling": "/images/services/dsr/conveyor-design.jpg",
     "detail3dCad": "/images/services/dsr/3d-cad-model.png",
     "detailResearchDevelopment": "/images/services/dsr/research-development.jpg",
     "detailReverseEngineering": "/images/services/dsr/reverse-engineering.jpg",
     "detail2dDrafting": "/images/services/dsr/2d-drafting.jpg",
+	"detailDrawingConversion": "/images/services/dsr/drawing-conversion.jpg",
+	"detailDesignDocumentation": "/images/services/dsr/design-documentation.jfif",
     "detailDrawingConversion": "/images/services/dsr/drawing-conversion.jpg",
     "detailFiniteElement": "/images/services/dsr/finite-element-analysis.png",
     "detailDynamicAnalysis": "/images/services/dsr/dynamic-analysis.jpg",
     "detailThermalAnalysis": "/images/services/dsr/thermal-analysis.jpg",
     "detailFluidAnalysis": "/images/services/dsr/fluid-analysis.png",
-    "detailPlantLayout": "/images/services/dsr/plant-layout.webp",
+    "detailPlantLayout": "/images/services/dsr/detail-plant-layout.jpg",
     "detailPipingInstrumentation": "/images/services/dsr/piping-3d.jfif",
     "detailProcessEngineering": "/images/services/dsr/process-engineering.jfif",
     "detailStructuralEngineering": "/images/services/dsr/structural-civil-support.jpg",
@@ -154,7 +156,7 @@
     "detailScanToModel": "/images/services/dsr/scan-to-model.png",
     "detailClashDetection": "/images/services/dsr/clash-detection.jfif",
     "detailBoilersChimneys": "/images/services/dsr/boilers-chimneys.jpeg",
-    "detailStorageTank": "/images/services/dsr/storage-tank.jfif",
+    "detailStorageTank": "/images/services/dsr/storage-tank-detail.jfif",
     "detailStorageTank3d": "/images/services/dsr/storage-tank-3d.jfif",
     "detailHeatExchangers": "/images/services/dsr/heat-exchangers.jpeg",
     "detailChillers": "/images/services/dsr/chillers.jfif",
@@ -167,7 +169,7 @@
     "detailSpecialMachine": "/images/services/dsr/special-purpose-machine-design.jpg",
     "servicesHeroGears": "/images/services/services-hero-gears.png",
     "serviceTechnicalResourcesTeam": "/images/services/dsr/technical-resource.jfif",
-    "serviceMaterialHandlingAutomationNew": "/images/services/dsr/conveyor-design.jpg",
+    "serviceMaterialHandlingAutomationNew": "/images/services/dsr/material-handling-automation-services.png",
     "serviceOilGasPipingPlant": "/images/services/dsr/oil-refineries.jfif",
     "clientHblPowerSystems": "/images/clients/hbl-power-systems.png",
     "clientRci": "/images/clients/rci.png",
@@ -297,7 +299,7 @@
         {
           "title": "Technical Resources",
           "body": "Skilled and experienced technical resources to provide dependable engineering work support.",
-          "imageKey": "serviceTechnicalResourcesTeam",
+          "imageKey": "serviceTechnicalResources",
           "href": "/services/technical-resources"
         },
         {
@@ -455,7 +457,7 @@
       {
         "title": "Manpower Services",
         "body": "Provide reliable engineering and technical manpower for design offices, construction teams, and industrial project execution.",
-        "imageKey": "servicePlantEngineering",
+        "imageKey": "serviceProjectManagement",
         "features": [
           "Screened technical talent",
           "Role-fit staffing support",
@@ -466,7 +468,7 @@
       {
         "title": "Professional Training",
         "body": "Prepare graduates and working engineers with practical industrial design, CAD, BIM, and project workflow training.",
-        "imageKey": "serviceBim",
+        "imageKey": "serviceProjectManagement",
         "features": [
           "CAD and BIM training",
           "Industrial design fundamentals",
@@ -479,7 +481,7 @@
       "eyebrow": "How Our Divisions Work Together",
       "title": "Integrated support from talent to delivery.",
       "body": "Training builds capability, manpower services provide scalable teams, and secondment places the right specialists inside live client projects.",
-      "imageKey": "serviceBim"
+      "imageKey": "serviceProjectManagement"
     },
     "cta": {
       "title": "Need Dedicated Engineering Support?",
@@ -493,9 +495,8 @@
       "eyebrow": "Our Services",
       "title": "Our Services",
       "body": [
-        "Our engineering and technical services are designed to meet your specific needs while driving efficiency, innovation, and business growth.",
-        "We offer reliable engineering and technical expertise to help optimize your operations and achieve sustainable growth."
-      ],
+        "Our engineering and technical services are designed to meet your specific needs while driving efficiency, innovation, and business growth."
+		],
       "imageKey": "pageHeroPattern",
       "searchPlaceholder": "Search services or features..."
     },
@@ -505,8 +506,8 @@
         "title": "New Product Development Services",
         "body": "Product design and development support from concept models to complete engineering documentation.",
         "imageKey": "serviceNewProduct",
-        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785954996/NEW_PRODUCT_DEVELOPMENT_SERVICES_xcdrrx.mp4",
-        "projectVideo": "/videos/services/cad-project.mp4",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1786112712/NEW_PRODUCT_DEVELOPMENT_lwz0ma.mp4",
+		"projectVideo": "/videos/services/cad-project.mp4",
         "features": [
           "3D CAD Model",
           "R&D",
@@ -550,10 +551,21 @@
             "imageKey": "detailReverseEngineering"
           },
           {
-            "title": "2D Drafting",
-            "body": "Prepare clear 2D drawings, drawing conversion packages, and design documentation for release.",
-            "imageKey": "detail2dDrafting"
-          }
+			"title": "2D Drafting",
+			"body": "Create precise 2D engineering drawings, layouts, and fabrication details in accordance with industry standards.",
+			"imageKey": "detail2dDrafting"
+		},
+		{
+		   "title": "Drawing Conversion",
+		   "body": "Convert hand sketches, PDFs, scanned documents, and legacy drawings into accurate digital CAD formats.",
+		   "imageKey": "detailDrawingConversion"
+		},
+		{
+		   "title": "Design Documentation",
+		   "body": "Develop comprehensive design documentation, technical specifications, bill of materials, and release packages.",
+		   "imageKey": "detailDesignDocumentation"
+		}
+		  
         ]
       },
       {
@@ -561,7 +573,7 @@
         "title": "Simulation Services",
         "body": "Engineering simulation support to validate strength, performance, thermal behavior, and fluid flow.",
         "imageKey": "serviceSimulation",
-        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785955000/SIMULATION_SERVICES_dyrfmy.mp4",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1786112713/SIMULATION_SERVICES_awrdsr.mp4",
         "projectVideo": "/videos/services/structural-steel-project.mp4",
         "features": [
           "Finite Element Analysis (FEA)",
@@ -667,8 +679,8 @@
         "slug": "technical-resources",
         "title": "Technical Resources",
         "body": "Skilled and experienced technical resources to provide dependable engineering work support.",
-        "imageKey": "serviceTechnicalResourcesTeam",
-        "video": "/videos/services/project-management-banner.mp4",
+        "imageKey": "serviceTechnicalResources",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1786112713/TECHNICAL_RESOURCES_ajlie6.mp4",
         "projectVideo": "/videos/services/project-management-project.mp4",
         "features": [
           "Skilled and Experienced Persons",
@@ -708,11 +720,6 @@
             "title": "Experienced Team",
             "body": "Deploy experienced teams capable of supporting delivery schedules and quality expectations.",
             "imageKey": "detailExperiencedTeam"
-          },
-          {
-            "title": "Flexible Support",
-            "body": "Scale engineering assistance based on project workload, discipline needs, and timelines.",
-            "imageKey": "detailSkilledResources"
           }
         ]
       },
@@ -761,11 +768,6 @@
             "title": "Clash Detection",
             "body": "Identify and resolve interdisciplinary clashes before construction or fabrication begins.",
             "imageKey": "detailClashDetection"
-          },
-          {
-            "title": "Digital Coordination",
-            "body": "Support model-based coordination workflows for clear project communication.",
-            "imageKey": "detailBimModeling"
           }
         ]
       },
@@ -774,7 +776,7 @@
         "title": "Pressure Vessels and Storage Tanks",
         "body": "Design and documentation support for boilers, chimneys, storage tanks, heat exchangers, and chillers.",
         "imageKey": "servicePressureVessels",
-        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785413588/plant-engineering-banner_fsxq9r.mp4",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1786112713/PRESSURE_VESSELS_iqt5yf.mp4",
         "projectVideo": "/videos/services/plant-engineering-project.mp4",
         "features": [
           "Boilers & Chimneys",
@@ -809,7 +811,7 @@
           {
             "title": "Storage Tanks",
             "body": "Prepare design and detailing support for industrial storage tank requirements.",
-            "imageKey": "detailStorageTank3d"
+            "imageKey": "detailStorageTank"
           },
           {
             "title": "Heat Exchangers",
@@ -828,7 +830,7 @@
         "title": "Oil and Gas Industry Services",
         "body": "Engineering support for oil refineries, pipelines, storage tanks, and connected oil and gas assets.",
         "imageKey": "serviceOilGasPipingPlant",
-        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785954994/OIL_AND_GAS_INDUSTRY_SERVICES_ykd5qf.mp4",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1786112713/OIL_AND_GAS_yi8oal.mp4",
         "projectVideo": "/videos/services/plant-engineering-project.mp4",
         "features": [
           "Oil Refineries",
@@ -868,11 +870,6 @@
             "title": "Storage Tanks",
             "body": "Deliver engineering support for tank farms, storage facilities, and associated systems.",
             "imageKey": "detailStorageTank3d"
-          },
-          {
-            "title": "Oil and Gas Assets",
-            "body": "Coordinate multidisciplinary engineering deliverables for oil and gas industry projects.",
-            "imageKey": "serviceOilGasNew"
           }
         ]
       },
@@ -881,7 +878,7 @@
         "title": "Material Handling & Automation Services",
         "body": "Design support for conveyors, material movement, packaging systems, and special purpose machines.",
         "imageKey": "serviceMaterialHandlingAutomationNew",
-        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785954996/Automation_and_material_handling_tzushc.mp4",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1786113842/Automation_and_material_handling_s5bneb.mp4",
         "projectVideo": "/videos/services/cad-project.mp4",
         "features": [
           "Conveyor Design",
@@ -913,17 +910,12 @@
             "imageKey": "detailConveyor"
           },
           {
-            "title": "Material Moving Design",
+            "title": "Material moving and packaging design",
             "body": "Support movement, transfer, and handling systems for industrial workflows.",
             "imageKey": "detailMaterialMoving"
           },
           {
-            "title": "Packaging Design",
-            "body": "Develop packaging equipment concepts and documentation for production requirements.",
-            "imageKey": "detailPackaging"
-          },
-          {
-            "title": "Special Purpose Machines",
+            "title": "Special purpose machine design",
             "body": "Support design and documentation for customized automation and production machines.",
             "imageKey": "detailSpecialMachine"
           }
@@ -1033,18 +1025,18 @@
             "Project execution documentation packages"
           ]
         },
-        {
-          "slug": "storage-terminals",
-          "title": "Storage Terminals",
-          "body": "Engineering support for storage, terminal, handling, and connected industrial facilities.",
-          "imageKey": "industryTerminals",
-          "details": [
-            "Tank farm and terminal layout support",
-            "Piping and utility drawing coordination",
-            "Documentation for handling and transfer systems",
-            "Engineering support for connected industrial assets"
-          ]
-        },
+		{
+		  "slug": "automobile-heavy-machineries",
+		  "title": "Automobile & Heavy Machinery",
+		  "body": "Comprehensive engineering services for automotive, heavy equipment, and industrial machinery sectors.",
+		  "imageKey": "industryAutomobile",
+		  "details": [
+			"Automotive component and assembly design support",
+			"Heavy equipment modeling and drafting services",
+			"Production drawings and technical documentation",
+			"Factory layout planning and engineering coordination"
+		  ]
+		},
         {
           "slug": "steel-industries",
           "title": "Steel Industries",
@@ -1071,7 +1063,7 @@
       "eyebrow": "",
       "title": "Who We Are",
       "body": [
-        "DSR Design and Engineering Solutions is a multidisciplinary engineering firm dedicated to delivering innovative, efficient, and reliable design solutions for a rapidly evolving industrial world. Established in 2016, DSR was founded with a single mission to be the best CAD Services provider globally and value add to the End User.",
+        "DSR Design and Engineering Solutions is a multidisciplinary engineering firm dedicated to delivering innovative, efficient, and reliable design solutions for a rapidly evolving industrial world. Established in 2016, DSR was founded with a single mission to be the best CAD Services provider globally in multiple industries and value add to the End User.",
         "What began as a small design office with a handful of engineers has evolved into a trusted technology and engineering partner serving clients across automotive, aerospace, heavy machinery, manufacturing, and industrial automation sectors.",
         "At DSR, we believe that great engineering is more than technical accuracy - it's about creating solutions that inspire progress, sustainability, and performance."
       ],

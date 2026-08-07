@@ -50,8 +50,8 @@ img {
   display: flex;
   gap: 28px;
   inset: 0 0 auto;
-  min-height: 82px;
-  padding: 12px clamp(12px, 2vw, 32px);
+  min-height: 100px;
+  padding: 10px 32px;
   position: sticky;
   top: 0;
   z-index: 20;
@@ -60,16 +60,19 @@ img {
 .brand {
   align-items: center;
   display: flex;
-  flex: 0 0 auto;
-  gap: 12px;
+  flex-shrink:0;
 }
 
 .brand-logo {
   background: #ffffff;
-  height: 74px;
+  height: 90px;
   cursor: pointer;
   user-select: none;
-  width: 180px;
+  width: auto;
+  max-width: 320px;
+  object-fit: contain;
+  border: none;
+  background: transparent;
 }
 
 .brand-mark {
