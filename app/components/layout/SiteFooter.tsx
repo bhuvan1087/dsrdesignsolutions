@@ -101,7 +101,16 @@ export function SiteFooter({ homeLinks = false }: SiteFooterProps) {
           ))}
         </div>
       </address>
-      <p className="copyright">{content.company.copyright}</p>
+      <div className="footer-bottom">
+        <p className="copyright">{content.company.copyright}</p>
+        <div className="powered-by">
+          <span>{content.footer.poweredBy.label}</span>
+          <a href={content.footer.poweredBy.href} target="_blank" rel="noreferrer">
+            <img src={content.footer.poweredBy.logo} alt="" />
+            <strong>{content.footer.poweredBy.name}</strong>
+          </a>
+        </div>
+      </div>
     </footer>
   );
 }

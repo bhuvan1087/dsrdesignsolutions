@@ -39,6 +39,13 @@
   ],
   "footer": {
     "intro": "Detailed design engineering, CAD, BIM, staffing, and project support for industrial clients.",
+    "poweredBy": {
+      "label": "Powered By:",
+      "name": "TechVedhaBees",
+      "tagline": "Intelligence in every solution.",
+      "href": "https://techvedhabees.com",
+      "logo": "/images/brand/techvedhabees-logo.png"
+    },
     "addresses": [
       {
         "label": "Registered Office",
