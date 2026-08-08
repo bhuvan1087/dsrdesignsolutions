@@ -3,7 +3,7 @@
     "name": "DSR Design and Engineering Solutions",
     "tagline": "Design and Engineering Solutions",
     "phone": "+91 92463 94003",
-    "email": "info@dsrdesignsolutions.com",
+    "email": "sr@dsrdesignsolutions.com",
     "logo": "/images/brand/dsr-logo_remb-removebg.png",
     "copyright": "DSR Design Solutions Pvt. Ltd. © 2026 All Rights Reserved."
   },
@@ -73,9 +73,7 @@
     ],
     "globalPresence": [
       "USA",
-      "UK",
-      "India",
-      "Australia"
+      "India"
     ],
     "socialLinks": [
       {
@@ -129,6 +127,7 @@
     "serviceNewProduct": "/images/services/dsr/new-product-development.jfif",
     "serviceSimulation": "/images/services/dsr/simulation-services.jpg",
     "servicePlantEngineeringNew": "/images/services/dsr/plant-layout.webp",
+	"servicePlantEngineeringCover": "/images/services/dsr/plantEngineering-cover.jpeg",
     "serviceTechnicalResources": "/images/services/dsr/technical-resources-cover.jpeg",
     "serviceBimNew": "/images/services/dsr/bim-modelling1.jfif",
     "servicePressureVessels": "/images/services/dsr/pressure-vessels-storage-tanks.png",
@@ -293,7 +292,7 @@
         {
           "title": "Plant Engineering Services",
           "body": "Plant layout, process, piping, instrumentation, structural, and civil engineering support.",
-          "imageKey": "servicePlantEngineeringNew",
+          "imageKey": "servicePlantEngineeringCover",
           "href": "/services/plant-engineering-services"
         },
         {
@@ -403,11 +402,8 @@
       "eyebrow": "Our Global Network",
       "title": "Engineering support close to clients and project sites.",
       "locations": [
-        "Mangalore",
-        "New Delhi",
-        "Mumbai",
-        "Hyderabad",
-        "Abu Dhabi",
+		"Hyderabad  - India",
+        "Mary Land  - USA",
         "Texas"
       ]
     },
@@ -1208,8 +1204,8 @@
       },
       {
         "label": "Email",
-        "value": "info@dsrdesignsolutions.com",
-        "href": "mailto:info@dsrdesignsolutions.com"
+        "value": "sr@dsrdesignsolutions.com",
+        "href": "mailto:sr@dsrdesignsolutions.com"
       },
       {
         "label": "Location",
@@ -1230,9 +1226,9 @@
         "title": "Email Us",
         "icon": "mail",
         "lines": [
-          "info@dsrdesignsolutions.com"
+          "sr@dsrdesignsolutions.com"
         ],
-        "href": "mailto:info@dsrdesignsolutions.com"
+        "href": "mailto:sr@dsrdesignsolutions.com"
       },
       {
         "title": "WhatsApp",
@@ -1280,22 +1276,21 @@
       "title": "Our Locations",
       "body": "With offices around the world, we're well-positioned to serve clients globally. Select a location to view details.",
       "tabs": [
-        "Global Headquarters",
-        "Global Engineering Office"
+        "Global Headquarters"
       ],
       "items": [
-        "Mangalore",
-        "New Delhi",
-        "Mumbai",
-        "Hyderabad",
-        "Abu Dhabi",
+        "Hyderabad - India",
+        "Mary Land  - USA",
         "Texas"
       ],
       "mapTitle": "Our Location Map",
-      "mapEmbedUrl": "https://www.google.com/maps?q=Mangalore%2C%20Karnataka%2C%20India&output=embed",
+      "mapEmbedUrl": "https://www.google.com/maps?q=Uppal%20Metro%20Station%2C%20Hyderabad%2C%20Telangana%2C%20India&output=embed",
       "cardTag": "Headquarters",
       "cardTitle": "Global Headquarters",
-      "cardBody": "Mangalore, Karnataka, India"
+      "cardBody":[ "Narayana complex, ",
+	  "Pillar no : 867, ",
+	  "Near Uppal Metro station, " ,
+	  " Hyderabad"]
     },
     "faq": {
       "eyebrow": "Help",
