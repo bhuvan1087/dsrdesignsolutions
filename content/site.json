@@ -129,7 +129,7 @@
     "serviceNewProduct": "/images/services/dsr/new-product-development.jfif",
     "serviceSimulation": "/images/services/dsr/simulation-services.jpg",
     "servicePlantEngineeringNew": "/images/services/dsr/plant-layout.webp",
-    "serviceTechnicalResources": "/images/services/dsr/technical-resources-team.jpg",
+    "serviceTechnicalResources": "/images/services/dsr/technical-resources-cover.jpeg",
     "serviceBimNew": "/images/services/dsr/bim-modelling1.jfif",
     "servicePressureVessels": "/images/services/dsr/pressure-vessels-storage-tanks.png",
     "serviceOilGasNew": "/images/services/dsr/oil-refineries.jfif",
@@ -626,7 +626,7 @@
         "title": "Plant Engineering Services",
         "body": "Plant layout, process, piping, instrumentation, structural, and civil engineering support.",
         "imageKey": "servicePlantEngineeringNew",
-        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785413588/plant-engineering-banner_fsxq9r.mp4",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1786173675/PLANT-ENGINEERING_qa8t0w.mp4",
         "projectVideo": "/videos/services/plant-engineering-project.mp4",
         "features": [
           "Plant Layout Design",
@@ -728,7 +728,7 @@
         "title": "BIM Services",
         "body": "BIM modeling, scan-to-model conversion, and clash detection for coordinated digital delivery.",
         "imageKey": "serviceBimNew",
-        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785416246/bim-banner_uy6vjg.mp4",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1786173675/BIM_SERVICE_rsgh4r.mp4",
         "projectVideo": "https://res.cloudinary.com/bbiks5ys/video/upload/v1785413563/bim-landmark-project_pbfd7p.mp4",
         "features": [
           "BIM Modeling",
@@ -1135,14 +1135,14 @@
         {
           "nameHighlight": "Devansh",
           "nameRest": "Trivedi",
-          "description": "Chief Executive Officer, B.E. Chemical Engg. 20+ years of experience in manufacturing and project management.",
-          "image": "/images/team/devansh-trivedi-placeholder.svg",
+          "description": "Chief Executive Officer,   B.E. Chemical Engg. 20+ years of experience in manufacturing and project management.",
+          "image": "/images/team/devansh-Trivedi.jpeg",
           "placeholder": "Image will be added"
         },
         {
           "nameHighlight": "Surendra",
           "nameRest": "Rapaka",
-          "description": "CTO, B.E. & M.E. Mechanical Engg. 9+ years in industrial operations and mechanical design.",
+          "description": "Managing director, B.E. & M.E. Mechanical Engg. 20+ years in industrial operations and mechanical design.",
           "image": "/images/team/surendra-rapaka.jpg",
           "placeholder": "Image will be added"
         }
