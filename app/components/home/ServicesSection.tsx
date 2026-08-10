@@ -13,6 +13,7 @@ export function ServicesSection() {
         {section.items.map((item) => (
           <a className="home-service-card" href={item.href} key={item.title}>
             <img src={content.images[item.imageKey as keyof typeof content.images]} alt="" />
+            {"centerHeading" in item ? <strong className="home-service-center-heading">{item.centerHeading}</strong> : null}
             <div>
               <h3>{item.title}</h3>
               <p>{item.body}</p>

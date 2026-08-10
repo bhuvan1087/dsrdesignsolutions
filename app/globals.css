@@ -981,6 +981,21 @@ p {
   z-index: 2;
 }
 
+.home-service-center-heading {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 800;
+  left: 50%;
+  line-height: 1.1;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 3px 16px rgba(0, 0, 0, 0.42);
+  top: 28px;
+  transform: translateX(-50%);
+  width: calc(100% - 52px);
+  z-index: 2;
+}
+
 .home-service-card h3 {
   color: #ffffff;
   font-size: 19px;

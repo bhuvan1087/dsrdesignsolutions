@@ -152,7 +152,7 @@
     "detailThermalAnalysis": "/images/services/dsr/thermal-analysis.jpg",
     "detailFluidAnalysis": "/images/services/dsr/fluid-analysis.png",
     "detailPlantLayout": "/images/services/dsr/detail-plant-layout.jpg",
-    "detailPipingInstrumentation": "/images/services/dsr/piping-3d.jfif",
+    "detailPipingInstrumentation": "/images/services/dsr/plant-layout-detail.jpeg",
     "detailProcessEngineering": "/images/services/dsr/process-engineering.jfif",
     "detailStructuralEngineering": "/images/services/dsr/structural-civil-support.jpg",
     "detailSkilledResources": "/images/services/dsr/skilled-team.jfif",
@@ -284,6 +284,13 @@
       "viewAllLabel": "View All Services",
       "viewAllHref": "/services",
       "items": [
+	   {
+          "title": "Oil And Gas Plant Engineering Services",
+          "centerHeading": "Oil and Gas",
+          "body": "Plant layout, process, piping, instrumentation, structural, and civil engineering support.",
+          "imageKey": "servicePlantEngineeringCover",
+          "href": "/services/plant-engineering-services"
+        },
         {
           "title": "New Product Development Services",
           "body": "Product design and development support from concept models to complete engineering documentation.",
@@ -295,12 +302,6 @@
           "body": "Engineering simulation support to validate strength, performance, thermal behavior, and fluid flow.",
           "imageKey": "serviceSimulation",
           "href": "/services/simulation-services"
-        },
-        {
-          "title": "Plant Engineering Services",
-          "body": "Plant layout, process, piping, instrumentation, structural, and civil engineering support.",
-          "imageKey": "servicePlantEngineeringCover",
-          "href": "/services/plant-engineering-services"
         },
         {
           "title": "Technical Resources",
@@ -504,6 +505,60 @@
       "searchPlaceholder": "Search services or features..."
     },
     "items": [
+	{
+        "slug": "plant-engineering-services",
+        "title": "Oil And Gas Plant Engineering Services",
+        "body": "Plant layout, process, piping, instrumentation, structural, and civil engineering support.",
+        "imageKey": "servicePlantEngineeringNew",
+        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1786173675/PLANT-ENGINEERING_qa8t0w.mp4",
+        "projectVideo": "/videos/services/plant-engineering-project.mp4",
+        "features": [
+          "Plant Layout Design",
+          "Piping and Instrumentation Design",
+          "Process Engineering",
+          "Structural Engineering and Civil Support"
+        ],
+        "stats": [
+          {
+            "value": "100+",
+            "label": "Projects Supported"
+          },
+          {
+            "value": "30+",
+            "label": "Experienced Engineers"
+          },
+          {
+            "value": "10+",
+            "label": "Years of Expertise"
+          },
+          {
+            "value": "8+",
+            "label": "Service Verticals"
+          }
+        ],
+        "details": [
+		  {
+            "title": "Oil and Gas Piping and Instrumentation Design",
+            "body": "Prepare piping, instrumentation, routing, and interface documentation for plant systems.",
+            "imageKey": "detailPipingInstrumentation"
+          },
+          {
+            "title": "Plant Layout Design",
+            "body": "Develop practical plant layouts that support equipment access, workflow, safety, and operations.",
+            "imageKey": "detailPlantLayout"
+          },
+		 {
+            "title": "Process Engineering",
+            "body": "Support process design documentation, calculations, and engineering deliverables.",
+            "imageKey": "detailProcessEngineering"
+          },
+          {
+            "title": "Structural and Civil Support",
+            "body": "Coordinate structural and civil engineering requirements for safe plant execution.",
+            "imageKey": "detailStructuralEngineering"
+          }
+        ]
+      },
       {
         "slug": "new-product-development-services",
         "title": "New Product Development Services",
@@ -621,60 +676,6 @@
             "title": "Fluid Analysis",
             "body": "Support fluid behavior studies for flow paths, pressure drop, and performance improvement.",
             "imageKey": "detailFluidAnalysis"
-          }
-        ]
-      },
-      {
-        "slug": "plant-engineering-services",
-        "title": "Plant Engineering Services",
-        "body": "Plant layout, process, piping, instrumentation, structural, and civil engineering support.",
-        "imageKey": "servicePlantEngineeringNew",
-        "video": "https://res.cloudinary.com/bbiks5ys/video/upload/v1786173675/PLANT-ENGINEERING_qa8t0w.mp4",
-        "projectVideo": "/videos/services/plant-engineering-project.mp4",
-        "features": [
-          "Plant Layout Design",
-          "Piping and Instrumentation Design",
-          "Process Engineering",
-          "Structural Engineering and Civil Support"
-        ],
-        "stats": [
-          {
-            "value": "100+",
-            "label": "Projects Supported"
-          },
-          {
-            "value": "30+",
-            "label": "Experienced Engineers"
-          },
-          {
-            "value": "10+",
-            "label": "Years of Expertise"
-          },
-          {
-            "value": "8+",
-            "label": "Service Verticals"
-          }
-        ],
-        "details": [
-          {
-            "title": "Plant Layout Design",
-            "body": "Develop practical plant layouts that support equipment access, workflow, safety, and operations.",
-            "imageKey": "detailPlantLayout"
-          },
-          {
-            "title": "Piping and Instrumentation Design",
-            "body": "Prepare piping, instrumentation, routing, and interface documentation for plant systems.",
-            "imageKey": "detailPipingInstrumentation"
-          },
-          {
-            "title": "Process Engineering",
-            "body": "Support process design documentation, calculations, and engineering deliverables.",
-            "imageKey": "detailProcessEngineering"
-          },
-          {
-            "title": "Structural and Civil Support",
-            "body": "Coordinate structural and civil engineering requirements for safe plant execution.",
-            "imageKey": "detailStructuralEngineering"
           }
         ]
       },
