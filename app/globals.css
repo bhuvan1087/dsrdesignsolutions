@@ -2648,8 +2648,8 @@ p {
   display: block;
   flex: 0 0 auto;
   filter: brightness(0) invert(1);
-  height: 58px;
-  max-width: 185px;
+  height: 76px;
+  max-width: 245px;
   object-fit: contain;
   padding: 0;
   width: auto;
