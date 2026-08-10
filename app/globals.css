@@ -2645,14 +2645,14 @@ p {
 }
 
 .footer-brand img {
-  background: #ffffff;
-  border-radius: 6px;
   display: block;
   flex: 0 0 auto;
-  height: 56px;
+  filter: brightness(0) invert(1);
+  height: 58px;
+  max-width: 185px;
   object-fit: contain;
-  padding: 6px;
-  width: 150px;
+  padding: 0;
+  width: auto;
 }
 
 .footer-brand p {
@@ -2731,16 +2731,16 @@ p {
 .socials a {
   align-items: center;
   border-radius: 999px;
-  color: #c7d3e3;
+  color: #ffffff;
   display: inline-flex;
   font-size: 22px;
   font-weight: 800;
-  height: 30px;
+  height: 24px;
   justify-content: center;
   margin: 0;
   padding: 0;
   transition: color 180ms ease, transform 180ms ease;
-  width: 30px;
+  width: 24px;
 }
 
 .socials a:hover {
@@ -2749,23 +2749,23 @@ p {
 }
 
 .socials .is-youtube {
-  color: #ff0000;
+  color: #ffffff;
 }
 
 .socials .is-x {
-  color: #111111;
+  color: #ffffff;
 }
 
 .socials .is-linkedin {
-  color: #0a66c2;
+  color: #ffffff;
 }
 
 .socials .is-facebook {
-  color: #1877f2;
+  color: #ffffff;
 }
 
 .socials .is-whatsapp {
-  color: #25d366;
+  color: #ffffff;
 }
 
 .socials .is-youtube:hover,
@@ -2779,8 +2779,8 @@ p {
 .socials svg {
   display: block;
   fill: currentColor;
-  height: 24px;
-  width: 24px;
+  height: 18px;
+  width: 18px;
 }
 
 .footer-bottom {
