@@ -1,4 +1,5 @@
 import content from "@/content/site.json";
+import { ContactForm } from "../components/contact/ContactForm";
 import { SiteFooter } from "../components/layout/SiteFooter";
 import { SiteHeader } from "../components/layout/SiteHeader";
 
@@ -28,22 +29,7 @@ export default function ContactPage() {
       </section>
 
       <section className="contact-main">
-        <form className="contact-form">
-          <h2>{page.form.title}</h2>
-          <div className="contact-form-grid">
-            {page.form.fields.map((field) => (
-              <label key={field.name}>
-                <span>{field.label}</span>
-                <input name={field.name} placeholder={field.placeholder} type={field.type} />
-              </label>
-            ))}
-          </div>
-          <label>
-            <span>{page.form.messageLabel}</span>
-            <textarea name="message" placeholder={page.form.messagePlaceholder} rows={5} />
-          </label>
-          <button type="button">{page.form.submitLabel}</button>
-        </form>
+        <ContactForm content={page.form} />
 
         <div className="contact-locations-inner">
           <h2>{page.locations.title}</h2>

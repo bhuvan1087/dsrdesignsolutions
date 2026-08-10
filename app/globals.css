@@ -2254,14 +2254,15 @@ p {
 .contact-main {
   background: #ffffff;
   display: grid;
-  gap: clamp(24px, 4vw, 46px);
+  gap: clamp(20px, 3vw, 34px);
   grid-template-columns: minmax(320px, 0.95fr) minmax(360px, 1.05fr);
-  padding: clamp(38px, 6vw, 72px) clamp(20px, 6vw, 86px) clamp(48px, 6vw, 84px);
+  padding: clamp(30px, 5vw, 54px) clamp(20px, 6vw, 86px) clamp(38px, 5vw, 64px);
 }
 
 .contact-form h2 {
-  font-size: clamp(34px, 4vw, 52px);
-  margin-bottom: 18px;
+  font-size: clamp(28px, 3vw, 38px);
+  line-height: 1.1;
+  margin-bottom: 16px;
 }
 
 .contact-form {
@@ -2271,24 +2272,24 @@ p {
   box-shadow: 0 18px 42px rgba(15, 39, 66, 0.1);
   margin: 0;
   max-width: none;
-  padding: clamp(28px, 4vw, 42px);
+  padding: clamp(20px, 3vw, 30px);
 }
 
 .contact-form-grid {
   display: grid;
-  gap: 18px;
+  gap: 12px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .contact-form label {
   display: grid;
-  gap: 8px;
-  margin-bottom: 18px;
+  gap: 6px;
+  margin-bottom: 12px;
 }
 
 .contact-form span {
   color: #344054;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -2299,8 +2300,10 @@ p {
   border-radius: 6px;
   color: #111827;
   font: inherit;
+  font-size: 14px;
   outline: none;
-  padding: 14px 16px;
+  min-height: 42px;
+  padding: 10px 12px;
   width: 100%;
 }
 
@@ -2316,9 +2319,28 @@ p {
   border-radius: 8px;
   color: #ffffff;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 900;
-  padding: 16px 26px;
+  min-height: 44px;
+  padding: 12px 22px;
+}
+
+.contact-field-error {
+  color: #b42318;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.contact-form-success {
+  background: #ecfdf3;
+  border: 1px solid #abefc6;
+  border-radius: 8px;
+  color: #067647;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.45;
+  margin: 14px 0 0;
+  padding: 12px 14px;
 }
 
 .contact-faq {
